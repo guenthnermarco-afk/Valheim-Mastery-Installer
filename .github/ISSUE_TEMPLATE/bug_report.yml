@@ -1,0 +1,37 @@
+name: Bug report / Fehlermeldung
+description: Report a Valheim Mastery bug or balance issue
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Please remove private server addresses, account details and personal paths from logs. Bitte private Daten aus Logs entfernen."
+  - type: input
+    id: versions
+    attributes:
+      label: Mastery and Valheim versions / Versionen
+      placeholder: "Mastery 0.16.28, Valheim 1.0.15"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: XP multiplier, host/client and other mods / Umgebung
+      placeholder: "x5, client, Comfort Pack"
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce / Schritte zum Nachstellen
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result / Erwartetes und tatsächliches Ergebnis
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log excerpt / Passender Logauszug
+      description: Only a short relevant excerpt; remove private details.
