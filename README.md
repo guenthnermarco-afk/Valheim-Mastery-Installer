@@ -4,9 +4,9 @@ Hier gibt es das vollständige Windows-Installationspaket für Valheim Mastery. 
 
 **[Aktuellen Installer herunterladen](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/latest/download/Valheim-Mastery-Installer.zip)**
 
-Aktuell: **Valheim Mastery 0.16.46 / Installer V59 — Rewards 2.0 Teststand**. Neue Meilensteine, Cape-Kraefte, Produktionsfolgen und Ressourcenzaehler. Bestehende XP und Einstellungen bleiben erhalten.
+Aktuell: **Valheim Mastery 0.16.47 / Installer V60**. Aktive Cape-Kraefte und Feldreparatur stehen mit Symbol und Restdauer in der nativen Buff-Leiste. Vermeidbare Leerlaufarbeit reduziert; die Ursache des gemeldeten Lags ist nicht bewiesen. Die Recovery-Sicherung alle30Sekunden bleibt erhalten.
 
-**English:** Rewards 2.0 test release, with new milestones, cape actions, production queues and resource counters. Existing XP and settings are retained.
+**English:** Active cape powers and field-repair channels now use the native status bar. Reduced avoidable idle work; the reported lag cause is not established. Recovery autosaves remain at30seconds. No new in-game acceptance is claimed for this HUD hotfix.
 
 ## Test release / Teststand
 
