@@ -4,7 +4,7 @@ Hier gibt es das vollständige Windows-Installationspaket für Valheim Mastery. 
 
 **[Aktuellen Installer herunterladen](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/latest/download/Valheim-Mastery-Installer.zip)**
 
-Aktuell: **Valheim Mastery 0.16.42 / Installer V54**. Gebets-Schnellauswahl für bis zu drei kompatible Gebete, blaue Aktivmarkierung und höherer Verbrauch für starke Kampfgebete. Gebete bleiben bei Dungeon- und Portalwechseln aktiv. Der Installer enthält außerdem die bestehende Vanilla-Itemization, geeignete Gegner-Ausrüstungsdrops, Dyrnwyn Perfect Strike und die Komfortmods.
+Aktuell: **Valheim Mastery 0.16.42 / Installer V55**. Quickslots überdecken die Wächterkraft nicht mehr; F6–F8 bleiben einzeilig. Eigene Positionen, Labels und Tasten bleiben beim Update erhalten. Gebets-Schnellauswahl für bis zu drei kompatible Gebete, blaue Aktivmarkierung und höherer Verbrauch für starke Kampfgebete. Gebete bleiben bei Dungeon- und Portalwechseln aktiv. Der Installer enthält außerdem die bestehende Vanilla-Itemization, geeignete Gegner-Ausrüstungsdrops, Dyrnwyn Perfect Strike und die Komfortmods.
 
 **English:** Version 0.16.42 adds saved quick prayers, clear blue active-state highlighting and increased combat-prayer drain. Active prayers persist across dungeon and portal transitions. Download the installer above, close Valheim and run `Installieren.exe`.
 
