@@ -4,9 +4,15 @@ Hier gibt es das vollständige Windows-Installationspaket für Valheim Mastery. 
 
 **[Aktuellen Installer herunterladen](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/latest/download/Valheim-Mastery-Installer.zip)**
 
-Aktuell: **Valheim Mastery 0.16.45 / Installer V58**. Der Mastery-Randgriff aktiviert vorhandene Einzelcape-Kräfte direkt; Baukunst bietet Reparatur und Heimkehr zur Auswahl. Apex bündelt acht vorhandene Kräfte mit Voraussetzungen und Abklingzeiten. Fehlendes optionales BetterUI erzeugt keine Warnungsflut mehr. Der umfassende Skill-/Cape-Belohnungsentwurf ist weiterhin nicht enthalten.
+Aktuell: **Valheim Mastery 0.16.46 / Installer V59 — Rewards 2.0 Teststand**. Neue Meilensteine, Cape-Kraefte, Produktionsfolgen und Ressourcenzaehler. Bestehende XP und Einstellungen bleiben erhalten.
 
-**English:** Version 0.16.45 adds the Mastery edge tab for existing individual cape powers, a two-action Construction selection and an Apex selection for eight existing powers. Missing optional BetterUI no longer causes repeated warnings. The broader rewards redesign is not included. Close Valheim, extract the archive and run `Installieren.exe`.
+**English:** Rewards 2.0 test release, with new milestones, cape actions, production queues and resource counters. Existing XP and settings are retained.
+
+## Test release / Teststand
+
+Rewards 2.0 is released for your own testing. Local native combo completion/cancellation and multiplayer resource transactions passed. The remote-owner melee combo and stamina-refund path is not yet validated: the test fixture did not produce a qualifying remote hit. This is a validation gap, not a confirmed product defect; this release is not a complete multiplayer acceptance.
+
+Rewards 2.0 ist zum eigenen Testen freigegeben. Lokale native Kombos inklusive Abbruch und Mehrspieler-Ressourcentransaktionen wurden geprueft. Der Kombo-/Ausdauererstattungspfad gegen Gegner mit entferntem Netzwerkbesitzer ist noch nicht abgenommen: Die Testumgebung erzeugte keinen qualifizierenden Remote-Treffer. Das ist eine offene Pruefung, kein bestaetigter Produktfehler; eine vollstaendige Mehrspieler-Abnahme wird nicht behauptet.
 
 Neu sind automatische lokale Sicherungen für die 21 Mastery-Skillfortschritte und gehaltene Mastery-Gegenstände. **Mastery-Sicherung** im Inventar öffnet die Vorschau: echten Verlust ausdrücklich bestätigen, aktuellen Stand behalten oder später entscheiden. Truhen und Gräber werden nicht gesichert; Weitergaben ohne laufende Mod bleiben unbekannt. Unterbrochene Wiederherstellungen bleiben zur manuellen Prüfung gesperrt. Über **Sicherungsordner anzeigen** lassen sich die Dateien finden. Beim Gerätewechsel mitnehmen: keine automatische Steam-Cloud-Synchronisierung.
 
