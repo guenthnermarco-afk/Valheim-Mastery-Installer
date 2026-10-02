@@ -4,9 +4,9 @@ Hier gibt es das vollständige Windows-Installationspaket für Valheim Mastery. 
 
 **[Aktuellen Installer herunterladen](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/latest/download/Valheim-Mastery-Installer.zip)**
 
-Aktuell: **Valheim Mastery 0.16.44 / Installer V57**. B schaltet gespeicherte Schnellgebete, die neue Anzeige zeigt die zuletzt trainierte Fertigkeit mit lesbarem XP-Fortschritt. Der Altar verwendet einen nativen Skelettschädel. Draugr-Aufträge geben abhängig von der benötigten Anzahl 16–25 Basismarken. Bestehende Komfortmods und der geprüfte Quickslot-Standardfix bleiben enthalten. Der umfassende Skill-/Cape-Belohnungsentwurf ist noch nicht umgesetzt.
+Aktuell: **Valheim Mastery 0.16.45 / Installer V58**. Der Mastery-Randgriff aktiviert vorhandene Einzelcape-Kräfte direkt; Baukunst bietet Reparatur und Heimkehr zur Auswahl. Apex bündelt acht vorhandene Kräfte mit Voraussetzungen und Abklingzeiten. Fehlendes optionales BetterUI erzeugt keine Warnungsflut mehr. Der umfassende Skill-/Cape-Belohnungsentwurf ist weiterhin nicht enthalten.
 
-**English:** Version 0.16.44 adds the configurable B quick-prayer toggle, a readable last-trained-skill XP display and a native skull on the altar. Draugr contracts grant 16–25 base marks according to required kills. The broader skill/cape reward redesign is not included. Close Valheim, extract the archive and run `Installieren.exe`.
+**English:** Version 0.16.45 adds the Mastery edge tab for existing individual cape powers, a two-action Construction selection and an Apex selection for eight existing powers. Missing optional BetterUI no longer causes repeated warnings. The broader rewards redesign is not included. Close Valheim, extract the archive and run `Installieren.exe`.
 
 Neu sind automatische lokale Sicherungen für die 21 Mastery-Skillfortschritte und gehaltene Mastery-Gegenstände. **Mastery-Sicherung** im Inventar öffnet die Vorschau: echten Verlust ausdrücklich bestätigen, aktuellen Stand behalten oder später entscheiden. Truhen und Gräber werden nicht gesichert; Weitergaben ohne laufende Mod bleiben unbekannt. Unterbrochene Wiederherstellungen bleiben zur manuellen Prüfung gesperrt. Über **Sicherungsordner anzeigen** lassen sich die Dateien finden. Beim Gerätewechsel mitnehmen: keine automatische Steam-Cloud-Synchronisierung.
 
