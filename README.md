@@ -1,4 +1,4 @@
-## Core 0.16.54 / Installer V68 â€” 03 October 2026
+## Core 0.16.55 / Installer V69 â€” 03 October 2026
 
 
 
@@ -25,7 +25,7 @@ XP-Balancing: Höhere Bergbauressourcen geben weniger XP je tatsächlich erhalte
 
 Deutsch: Die genannten zeitlich begrenzten Cape-KrÃ¤fte erhalten vier Minuten Aktivphase und danach sechs Minuten Abklingzeit. Angriff bleibt eine einzige erstattungsfÃ¤hige Kombo. Bestehende alte SperrstÃ¤nde werden nicht verlÃ¤ngert. Baukunst erhÃ¤lt +25m auf 10/30/50/70/90 und weitere100m durch getragenes Baukunstcape/Apex; maximal230m bei nativer5m-Basis. Es gelten weiterhin geladene Geometrie und native Zugriffs-/Stations-/StabilitÃ¤tsregeln.
 
-Installer V68 retains the V67 comfort mods, settings and MasteryDiagnostics 1.0.0. The optional local performance probe, item-delivery helpers, private encounter modules and the earlier automatic floor-terrain experiment are excluded. Existing progress/settings remain; fresh profiles use XP x1.
+Installer V69 retains the V67 comfort mods, settings and MasteryDiagnostics 1.0.0. The optional local performance probe, item-delivery helpers, private encounter modules and the earlier automatic floor-terrain experiment are excluded. Existing progress/settings remain; fresh profiles use XP x1.
 
 ## Core 0.16.53 / Installer V67 â€” 03 October 2026
 
