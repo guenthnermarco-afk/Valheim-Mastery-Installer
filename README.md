@@ -1,3 +1,17 @@
+## 0.17.2 — 04 October 2026
+
+- The Construction board defines one shared circular building area. Actual workbenches, forges, stonecutters and other building stations inside it supply their building permission throughout that area. Stations are still required.
+- With AzuCraftyBoxes installed and enabled, accessible chests in the same area supply its normal crafting/building actions. Distant chests use lightweight network representations without loading the entire surrounding terrain. Existing payment and access rules remain in effect.
+- Construction milestones at 10/30/50/70/90 unlock another 25 metres of area radius each; wearing the Construction cape unlocks another 100 metres. Set the radius at the board: 20 metres initially, up to 245 metres. A saved area upgrade remains when the contributor leaves or removes the cape. These bonuses no longer extend personal placement distance.
+- Existing rectangular areas retain a minimum radius covering their corners. Without a board, native station ranges and the configured chest range apply.
+- Construction boards display the existing Construction skill icon. German/English descriptions explain the new radius.
+- Production totals are indexed instead of rescanning the transaction history for each claim. Repeated identical minimap saves reuse a bounded compression result; native save bytes remain unchanged. No blanket FPS improvement is claimed.
+- Corrected German Agility/Woodcutting labels and leaderboard tabs. Existing character progress and configuration remain intact. Update clients and server together.
+
+Deutsch: Das Baumeisterbrett legt ein gemeinsames Baugebiet fest. Vorhandene Stationen und zugängliche Kisten darin gelten für den gesamten Kreis. Die Baukunst-Boni erweitern diesen Kreis statt der persönlichen Platzierungsdistanz. Den Radius am Brett einstellen; gespeicherte Erweiterungen bleiben bestehen. Alte Rechtecke bleiben vollständig abgedeckt. Ohne Brett gelten die bisherigen Stations- und Kistenreichweiten. Das Brett zeigt das Baukunst-Symbol.
+
+Windows installer V72 retains the optional local diagnostics. Reports stay in Downloads/mastery_diag.zip; no automatic upload. Test-only cape colour concepts are excluded.
+
 ## 0.17.1 — 04 October 2026
 
 - Production XP journals now append small durable transactions instead of rewriting the complete history for every output. Existing progress is retained. Back up the entire Mastery configuration directory, including `.tsv` and `.tsv.wal` files, while the server is stopped. Do not downgrade by replacing only the DLL after new production has been recorded.
