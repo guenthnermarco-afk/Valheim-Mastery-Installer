@@ -1,3 +1,16 @@
+## 0.17.1 — 04 October 2026
+
+- Production XP journals now append small durable transactions instead of rewriting the complete history for every output. Existing progress is retained. Back up the entire Mastery configuration directory, including `.tsv` and `.tsv.wal` files, while the server is stopped. Do not downgrade by replacing only the DLL after new production has been recorded.
+- Character recovery avoids redundant saves immediately after a successful save and unnecessary temporary copies during packet verification. Recovery protections remain enabled; no measured FPS improvement is claimed.
+- Leaderboard responses are bounded during download. The board has a visible scrollbar, direct skill selection and localized numbers.
+- Slayer reward details now match the award formulas. Magic and Prayer unlocks are included in the general milestone list; staff tooltips reflect configured keys.
+- High Alchemy adds controller focus, navigation and separate confirmation. A physical controller gameplay check remains outstanding.
+- The leaderboard remains voluntary, self-reported Community progression. Server-verified competition is not enabled in this version.
+
+Deutsch: Produktionsjournale speichern einzelne Änderungen statt jedes Mal die gesamte Historie. Rangliste mit sichtbarer Scrollleiste und direkter Skillwahl, korrigierte Slayer-Angaben, vollständige Magie-/Gebetsfreischaltungen und konfigurierte Stabtasten. Hohe Alchemie erhält Controllerführung mit getrennter Bestätigung. Bestehende XP und Einstellungen bleiben erhalten. Clients und Server gemeinsam aktualisieren. Die Rangliste bleibt ungeprüfte Community-Wertung.
+
+**Windows installer V71:** includes the corrected local process-memory diagnostics.
+
 ## Core 0.17.0 / Installer V70 — 04 October 2026
 
 - Online leaderboard: open Skills → Leaderboard. Top 100 overall/per skill, player details and your own rank. Joining is voluntary: the Join button publishes your character name and 21 skill XP values. Changes upload at most every three minutes. Access codes support recovery; keep them private. Leave/delete removes your public profile. Values are self-reported and unverified; Standard and Test/multiplier lists are separate.
