@@ -1,3 +1,12 @@
+## 0.17.3 — 04 October 2026
+
+- Blackmetal ore now uses the installed game's green Black Metal Scrap inventory icon and dropped-item model. The mineable deposit keeps its own sectioned 3D geometry with the real scrap mesh material and usable UVs, avoiding the white particle-like surface.
+- The Construction board has a single-click action to refill fires and lamps throughout its circular building area. It spends matching fuel from your inventory first, then permitted area chests through enabled AzuCraftyBoxes. Full, infinite-fuel and non-refillable lights are skipped; smelters and kilns are excluded.
+- Only missing whole fuel units are paid. Insufficient supplies produce partial refills. Switching a lamp off remains respected. Distant fireplaces use lightweight network representations, and batch requests are serialized by the host.
+- Existing progress, build-area settings and configuration are retained. Update clients and server together.
+
+Deutsch: Schwarzmetallerz und sein Vorkommen nutzen die metallisch grüne Vanilla-Schrottoptik. Am Baumeisterbrett lassen sich Feuer und Lampen im gesamten Baugebiet mit einem Klick nachfüllen. Passender Brennstoff wird zuerst aus dem Inventar und dann aus freigegebenen Gebietskisten verbraucht. Volle Lampen verbrauchen nichts, fehlendes Material erlaubt Teilfüllungen. Ausgeschaltete Lampen bleiben ausgeschaltet.
+
 ## 0.17.2 — 04 October 2026
 
 - The Construction board defines one shared circular building area. Actual workbenches, forges, stonecutters and other building stations inside it supply their building permission throughout that area. Stations are still required.
