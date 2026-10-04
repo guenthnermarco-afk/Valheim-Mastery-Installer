@@ -8,7 +8,7 @@ Build your character through 21 skills, discover new ways to fight and explore, 
 
 Close Valheim, extract the ZIP and run Installieren.exe. Pick your Valheim folder and follow the installer. Existing settings and progress are retained. Update the server and every player together.
 
-Current release: **0.17.4 / Installer V74**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.4).
+Current release: **0.17.5 / Installer V75**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.5).
 
 ## Deutsch
 
