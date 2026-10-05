@@ -1,22 +1,18 @@
-Alle anbaubaren Pflanzen wachsen jetzt in jedem Biom, auch bei Hitze oder Kälte. Das gilt für Feldfrüchte, Pilze, Baumsetzlinge und Ranken; Saatgut, Boden, Platz und nötige Stützen bleiben erforderlich.
-
-All plantable crops now grow in every biome, including hot and cold regions. This covers field crops, mushrooms, tree saplings and vines; seeds, soil, space and required supports still apply.
-
 # Valheim Mastery
 
 Build a character through 21 skills, find new ways to fight and explore, and earn equipment that shows what you have mastered. Mastery adds Prayer, Slayer, magic, animated capes and sails, a shared village-building area and voluntary Community rankings to Valheim. English and German are included.
 
 ## Install or update
 
-Neu in 0.17.8: Der Heimkehrpfahl bleibt nach einem Spielneustart ausgewählt. Ist er nicht mehr vorhanden oder sein Landepunkt blockiert, bringt dich die Baukunst-Heimkehr stattdessen zu deinem gesetzten eigenen Bett. Deine Bettauswahl bleibt erhalten. Falls auch das Bett fehlt, wird die Reise ohne Abklingzeit abgebrochen.
+Neu in 0.17.9: Prayer-Met wird jetzt richtig angesetzt: Am Metkocher entsteht eine Metbasis in der Valheim-Schale, im Fermenter werden daraus die trinkbaren Flaschen. Auch der starke Trank folgt diesem Ablauf. Alte zerstörte Grauzwergnester können wiederkehren, wenn ihr ursprünglicher Waldstandort noch gespeichert ist: fünf Spieltage nach Erkennen des fehlenden Nests, mit Schutz für nahe Spieler und Gebäude. Gebets- und ungenutzte Baugebietsprüfungen verursachen weniger unnötige Arbeit; ein bestimmter FPS-Gewinn ist nicht zugesagt.
 
-New in 0.17.8: Your home marker remains selected after restarting the game. If it is missing or its landing spot is blocked, Construction return-home uses your selected own bed instead. Your bed selection stays intact. If the bed is also unavailable, the journey is cancelled without a cooldown.
+New in 0.17.9: Prayer mead now follows the brewing process: prepare a base in the native Valheim bowl at the mead kettle, then ferment it into drinkable bottles. The strong potion follows the same route. Previously destroyed greydwarf nests can return where their original forest location remains saved: five in-game days after the missing nest is detected, with nearby players and buildings protected. Prayer and unused building-area checks skip unnecessary work; no particular FPS gain is promised.
 
 [Download the Windows installer](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/latest/download/Valheim-Mastery-Installer.zip)
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.8 / Installer V78**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.8).
+Current release: **0.17.9 / Installer V79**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.9).
 
 Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
