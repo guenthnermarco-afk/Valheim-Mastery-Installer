@@ -4,21 +4,37 @@ Build a character through 21 skills, find new ways to fight and explore, and ear
 
 ## Install or update
 
-Neu in 0.17.10: An der Potenzialschmiede erscheinen nur noch Rezepte, deren Zutaten du bereits entdeckt hast. Die plötzliche Rezeptflut ist damit behoben. Aufwerten und das Heranziehen von Materialien aus Kisten funktionieren wie bisher; deine bereits bekannten Rezepte bleiben erhalten.
+Your cape's power is now one key away. Press **C** to use the active power of the cape you are wearing. The Construction cape takes you home. With an Apex cape, **Shift + C** opens the power selection; save one choice, then use C whenever you need it. Each character keeps their own choice. If you have not chosen yet, C opens the selection. Passive capes keep their passive effects.
 
-New in 0.17.10: The potential forge now reveals recipes only when you have discovered their ingredients. This fixes the sudden flood of recipe unlocks. Upgrading and drawing materials from nearby chests work as before; recipes you already know are kept.
+The default walk toggle on C is freed for this shortcut. A different walking key you have chosen stays yours. Both cape shortcuts can be changed in the Mastery configuration; conflicting bindings are reported instead of firing two actions. Existing requirements and cooldowns still apply.
+
+Farming and Prayer now reward a longer journey instead of letting a few large harvests or trophies skip most of it. New crop and seed XP is **10% of the previous amount**, while slaughtering tamed animals awards **50%**. Taming XP, harvest yields, planting grids, seed returns and automatic resowing stay the same. Already earned XP and levels remain.
+
+Prayer offerings have been adjusted individually: Withered Bones give **1,500 XP at ×1**, ordinary Draugr trophies **3,000**, and the most valuable offering tier **7,500**. A late-game trophy crate with the Supplies bonus now gives **36,000 ×1 XP** rather than 725,000. Other offerings keep their own values; this is not a blanket reduction. Your configured multiplier still applies once.
+
+The Defence cape's **Second chance** now restores full health when it saves you from a lethal hit, once every six minutes. It works automatically; C is not required.
 
 [Download the Windows installer](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/latest/download/Valheim-Mastery-Installer.zip)
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.10 / Installer V80**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.10).
+Current release: **0.17.11 / Installer V81**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.11).
 
 Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
 High Alchemy requires Magic 55 and costs 5 Ember Runes, 1 Root Rune and 20 Eitr per confirmed item. Equipped items, quest objects and coins are protected. Community leaderboard participation is voluntary under Skills → Leaderboard.
 
 ## Deutsch
+
+Die Cape-Kraft ist jetzt nur einen Tastendruck entfernt: **C** nutzt die aktive Fähigkeit des getragenen Capes. Beim Baukunstcape ist das die Heimkehr. Mit dem Apex-Cape öffnet **Umschalt + C** die Auswahl: eine Kraft speichern und danach mit C nutzen. Jeder Charakter behält seine eigene Wahl. Solange noch nichts gewählt ist, öffnet auch C die Auswahl. Passive Capes behalten ihre passiven Effekte.
+
+Die normale Gehen-Umschaltung auf C macht dafür Platz. Eine andere selbst gewählte Gehen-Taste bleibt erhalten. Beide Cape-Tasten lassen sich in der Mastery-Konfiguration ändern; bei Konflikten gibt es einen Hinweis statt zweier gleichzeitiger Aktionen. Voraussetzungen und Abklingzeiten gelten weiter.
+
+Landwirtschaft und Gebet wachsen jetzt gleichmäßiger, damit nicht schon wenige große Ernten oder Trophäen fast den ganzen Weg überspringen. Neue Pflanzen- und Saatgut-XP betragen **10% des bisherigen Werts**, das Schlachten gezähmter Tiere gibt **50%**. Zähmen-XP, Ertrag, Pflanzraster, Saatrückgabe und automatische Nachsaat bleiben gleich. Verdiente XP und Level bleiben erhalten.
+
+Opfergaben wurden einzeln angepasst: Verdorrte Knochen geben **1.500 XP bei ×1**, gewöhnliche Draugrtrophäen **3.000**, die höchste Opferstufe **7.500**. Eine späte Trophäenkiste mit Vorrätebonus bringt jetzt **36.000 ×1-XP** statt 725.000. Andere Opfer behalten ihre jeweiligen Werte; nicht alles wurde pauschal reduziert. Der eingestellte Multiplikator wirkt weiterhin einmal.
+
+Die **Zweite Chance** des Verteidigungscapes stellt beim Schutz vor einem tödlichen Treffer jetzt die volle Gesundheit wieder her, einmal alle sechs Minuten. Das geschieht automatisch, ohne C.
 
 Entwickle deinen Charakter über 21 Fertigkeiten weiter und verdiene Ausrüstung, die deine Meisterschaft zeigt. Gebete, Slayer-Aufträge, Magie, animierte Capes und Segel, ein gemeinsames Baugebiet und eine freiwillige Community-Rangliste ergänzen Valheim.
 
