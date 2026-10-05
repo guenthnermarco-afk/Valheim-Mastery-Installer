@@ -4,11 +4,15 @@ Build a character through 21 skills, find new ways to fight and explore, and ear
 
 ## Install or update
 
+New in 0.17.7: the Obliterator returns 50% of crafting materials, rounded down after pooling each material. Its lightning stays visible without damaging your home. If the returned materials do not fit, the items stay inside.
+
+Neu in 0.17.7: Der Vernichter gibt 50% der Herstellungsmaterialien zurück, je Material zusammengerechnet und abgerundet. Sein Blitz bleibt sichtbar und beschädigt dein Haus nicht mehr. Fehlt Platz für die Rückgabe, bleiben die Gegenstände erhalten.
+
 [Download the Windows installer](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/latest/download/Valheim-Mastery-Installer.zip)
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.6 / Installer V76**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.6).
+Current release: **0.17.7 / Installer V77**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.7).
 
 New in this version: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
