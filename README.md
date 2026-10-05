@@ -1,20 +1,24 @@
+Alle anbaubaren Pflanzen wachsen jetzt in jedem Biom, auch bei Hitze oder Kälte. Das gilt für Feldfrüchte, Pilze, Baumsetzlinge und Ranken; Saatgut, Boden, Platz und nötige Stützen bleiben erforderlich.
+
+All plantable crops now grow in every biome, including hot and cold regions. This covers field crops, mushrooms, tree saplings and vines; seeds, soil, space and required supports still apply.
+
 # Valheim Mastery
 
 Build a character through 21 skills, find new ways to fight and explore, and earn equipment that shows what you have mastered. Mastery adds Prayer, Slayer, magic, animated capes and sails, a shared village-building area and voluntary Community rankings to Valheim. English and German are included.
 
 ## Install or update
 
-New in 0.17.7: the Obliterator returns 50% of crafting materials, rounded down after pooling each material. Its lightning stays visible without damaging your home. If the returned materials do not fit, the items stay inside.
+Neu in 0.17.8: Der Heimkehrpfahl bleibt nach einem Spielneustart ausgewählt. Ist er nicht mehr vorhanden oder sein Landepunkt blockiert, bringt dich die Baukunst-Heimkehr stattdessen zu deinem gesetzten eigenen Bett. Deine Bettauswahl bleibt erhalten. Falls auch das Bett fehlt, wird die Reise ohne Abklingzeit abgebrochen.
 
-Neu in 0.17.7: Der Vernichter gibt 50% der Herstellungsmaterialien zurück, je Material zusammengerechnet und abgerundet. Sein Blitz bleibt sichtbar und beschädigt dein Haus nicht mehr. Fehlt Platz für die Rückgabe, bleiben die Gegenstände erhalten.
+New in 0.17.8: Your home marker remains selected after restarting the game. If it is missing or its landing spot is blocked, Construction return-home uses your selected own bed instead. Your bed selection stays intact. If the bed is also unavailable, the journey is cancelled without a cooldown.
 
 [Download the Windows installer](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/latest/download/Valheim-Mastery-Installer.zip)
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.7 / Installer V77**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.7).
+Current release: **0.17.8 / Installer V78**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.8).
 
-New in this version: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
+Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
 High Alchemy requires Magic 55 and costs 5 Ember Runes, 1 Root Rune and 20 Eitr per confirmed item. Equipped items, quest objects and coins are protected. Community leaderboard participation is voluntary under Skills → Leaderboard.
 
