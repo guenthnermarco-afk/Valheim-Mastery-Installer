@@ -4,6 +4,12 @@ Build a character through 21 skills, find new ways to fight and explore, and ear
 
 ## Install or update
 
+The Fishing cape now lets you walk across water for four minutes, with splashes
+under your feet. From Fishing level 20, the Chitin harpoon can catch all twelve
+native fish species from shore, a boat or shallow water, without a cape power.
+Rune spells hit harder as Magic grows, and Mastery sails now use their matching
+cape artwork, including the eight animated Apex styles.
+
 Your cape's power is now one key away. Press **C** to use the active power of the cape you are wearing. The Construction cape takes you home. With an Apex cape, **Shift + C** opens the power selection; save one choice, then use C whenever you need it. Each character keeps their own choice. If you have not chosen yet, C opens the selection. Passive capes keep their passive effects.
 
 The default walk toggle on C is freed for this shortcut. A different walking key you have chosen stays yours. Both cape shortcuts can be changed in the Mastery configuration; conflicting bindings are reported instead of firing two actions. Existing requirements and cooldowns still apply.
@@ -18,13 +24,19 @@ The Defence cape's **Second chance** now restores full health when it saves you 
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.11 / Installer V81**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.11).
+Current release: **0.17.12 / Installer V82**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.12).
 
 Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
 High Alchemy requires Magic 55 and costs 5 Ember Runes, 1 Root Rune and 20 Eitr per confirmed item. Equipped items, quest objects and coins are protected. Community leaderboard participation is voluntary under Skills → Leaderboard.
 
 ## Deutsch
+
+Das Angelcape lässt dich jetzt vier Minuten über Wasser laufen, mit passenden
+Spritzern bei jedem Schritt. Ab Angeln-Level 20 kannst du mit der Chitinharpune
+alle zwölf nativen Fischarten vom Ufer, Boot oder im flachen Wasser fangen,
+ohne Cape-Kraft. Runenzauber treffen mit steigender Magie kräftiger. Mastery-Segel
+tragen die passende Cape-Gestaltung, einschließlich der acht animierten Apex-Stile.
 
 Die Cape-Kraft ist jetzt nur einen Tastendruck entfernt: **C** nutzt die aktive Fähigkeit des getragenen Capes. Beim Baukunstcape ist das die Heimkehr. Mit dem Apex-Cape öffnet **Umschalt + C** die Auswahl: eine Kraft speichern und danach mit C nutzen. Jeder Charakter behält seine eigene Wahl. Solange noch nichts gewählt ist, öffnet auch C die Auswahl. Passive Capes behalten ihre passiven Effekte.
 
