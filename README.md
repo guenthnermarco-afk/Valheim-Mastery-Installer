@@ -4,15 +4,15 @@ Build a character through 21 skills, find new ways to fight and explore, and ear
 
 ## Install or update
 
-Neu in 0.17.9: Prayer-Met wird jetzt richtig angesetzt: Am Metkocher entsteht eine Metbasis in der Valheim-Schale, im Fermenter werden daraus die trinkbaren Flaschen. Auch der starke Trank folgt diesem Ablauf. Alte zerstörte Grauzwergnester können wiederkehren, wenn ihr ursprünglicher Waldstandort noch gespeichert ist: fünf Spieltage nach Erkennen des fehlenden Nests, mit Schutz für nahe Spieler und Gebäude. Gebets- und ungenutzte Baugebietsprüfungen verursachen weniger unnötige Arbeit; ein bestimmter FPS-Gewinn ist nicht zugesagt.
+Neu in 0.17.10: An der Potenzialschmiede erscheinen nur noch Rezepte, deren Zutaten du bereits entdeckt hast. Die plötzliche Rezeptflut ist damit behoben. Aufwerten und das Heranziehen von Materialien aus Kisten funktionieren wie bisher; deine bereits bekannten Rezepte bleiben erhalten.
 
-New in 0.17.9: Prayer mead now follows the brewing process: prepare a base in the native Valheim bowl at the mead kettle, then ferment it into drinkable bottles. The strong potion follows the same route. Previously destroyed greydwarf nests can return where their original forest location remains saved: five in-game days after the missing nest is detected, with nearby players and buildings protected. Prayer and unused building-area checks skip unnecessary work; no particular FPS gain is promised.
+New in 0.17.10: The potential forge now reveals recipes only when you have discovered their ingredients. This fixes the sudden flood of recipe unlocks. Upgrading and drawing materials from nearby chests work as before; recipes you already know are kept.
 
 [Download the Windows installer](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/latest/download/Valheim-Mastery-Installer.zip)
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.9 / Installer V79**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.9).
+Current release: **0.17.10 / Installer V80**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.10).
 
 Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
