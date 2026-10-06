@@ -2,6 +2,16 @@
 
 Build a character through 21 skills, find new ways to fight and explore, and earn equipment that shows what you have mastered. Mastery adds Prayer, Slayer, magic, animated capes and sails, a shared village-building area and voluntary Community rankings to Valheim. English and German are included.
 
+## New in 0.17.13
+
+Woodcutting, smelting, smithing and shared combat kills now give less XP, while mid-tier arrow and bolt recipes give more Crafting XP. Earned progress stays yours.
+
+Ranged milestones now save ammunition at the moment of the shot: up to 45% at level 100, or 75% while wearing the Ranged or Apex cape. Draugr Fang gains Double Shot, firing two ordinary arrows for 50 special energy. Each arrow checks ammunition saving separately.
+
+Rune fire spells hit harder, burn in fixed damage steps and drop three times as many runes on a successful rune drop. Harpoon catches give reduced Fishing XP. Upgrade the Chitin harpoon through quality four for more durability, then continue at the Potential Forge. Fifteen added seeds and spores now have their own inventory artwork.
+
+Cape powers show their active time and cooldown in the buff bar. Deer can be tamed with suitable plant foods; from Hunting 86, deer stop fleeing from you. From Fishing 85, a harpoon can capture a living leech. Place the captured leech in an interaction slot and use it while looking at water to release it tamed. Its species and stars stay with it. Waterwalker also lets you approach fish without frightening them.
+
 ## Install or update
 
 The Fishing cape now lets you walk across water for four minutes, with splashes
@@ -24,13 +34,24 @@ The Defence cape's **Second chance** now restores full health when it saves you 
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.12 / Installer V82**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.12).
+Current release: **0.17.13 / Installer V83**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.13).
 
 Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
 High Alchemy requires Magic 55 and costs 5 Ember Runes, 1 Root Rune and 20 Eitr per confirmed item. Equipped items, quest objects and coins are protected. Community leaderboard participation is voluntary under Skills → Leaderboard.
 
 ## Deutsch
+
+### Neu in 0.17.13
+
+Holzfällen, Schmelzen, Schmieden und gemeinsame Kampf-Kills geben jetzt weniger XP. Mittlere Pfeil- und Bolzenrezepte belohnen Handwerk stärker. Bereits verdienter Fortschritt bleibt erhalten.
+
+Fernkampf-Meilensteine sparen Munition direkt beim Schuss: bis zu 45% auf Level 100, mit Fernkampf- oder Apex-Cape bis zu 75%. Der Draugr-Fangzahn erhält Doppelschuss: zwei normale Pfeile für 50 Spezialenergie. Die Ersparnis wird für jeden Pfeil einzeln geprüft.
+
+Runen-Feuerzauber treffen kräftiger, Brennen verwendet feste Schadensstufen und erfolgreiche Runen-Drops liefern die dreifache Menge. Harpunenfänge geben deutlich weniger Angel-XP. Die Chitinharpune lässt sich bis Qualität vier für mehr Haltbarkeit aufwerten, danach geht es an der Potenzialschmiede weiter. Die fünfzehn zusätzlichen Saaten und Sporen haben eigene Inventar-Icons.
+
+Cape-Kräfte zeigen aktive Laufzeit und Abklingzeit in der Buff-Leiste. Hirsche lassen sich mit passendem Pflanzenfutter zähmen; ab Jagen 86 fliehen sie nicht mehr vor dir. Ab Angeln 85 kannst du lebende Blutegel mit der Harpune einfangen. Den gefangenen Blutegel in einen Interaktionsslot legen und mit Blick auf Wasser benutzen, um ihn gezähmt freizulassen. Art und Sterne bleiben erhalten. Mit Wasserwanderer kannst du dich außerdem Fischen nähern, ohne sie zu verscheuchen.
+
 
 Das Angelcape lässt dich jetzt vier Minuten über Wasser laufen, mit passenden
 Spritzern bei jedem Schritt. Ab Angeln-Level 20 kannst du mit der Chitinharpune
