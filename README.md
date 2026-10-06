@@ -2,7 +2,11 @@
 
 Build a character through 21 skills, find new ways to fight and explore, and earn equipment that shows what you have mastered. Mastery adds Prayer, Slayer, magic, animated capes and sails, a shared village-building area and voluntary Community rankings to Valheim. English and German are included.
 
-## New in 0.17.15
+## New in 0.17.16
+
+Tame deer and released leeches can now have young. Feed a calm pair and give them enough room; their young keep their stars and grow into adults. The Sailing cape also lets you choose one of your personally built longships or drakkars and travel to its deck. Open the list in the cape menu or with Shift+C; C still activates favourable winds. Start from solid ground. Normal teleport rules apply, with a separate six-minute cooldown after arrival. Rafts and karves are excluded.
+
+## Previous additions
 
 Updated for Valheim 1.0.17. Mastery now recognizes the new game version, with compatibility retained for 1.0.15 and 1.0.16. The visible captured-leech icon and all previous additions are included.
 
@@ -42,7 +46,7 @@ The Defence cape's **Second chance** now restores full health when it saves you 
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.15 / Installer V85**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.15).
+Current release: **0.17.16 / Installer V86**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.16).
 
 Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
@@ -50,7 +54,11 @@ High Alchemy requires Magic 55 and costs 5 Ember Runes, 1 Root Rune and 20 Eitr 
 
 ## Deutsch
 
-### Neu in 0.17.15
+### Neu in 0.17.16
+
+Gezähmte Hirsche und freigelassene Blutegel können jetzt Nachwuchs bekommen. Füttere ein ruhiges Paar und gib ihm genug Platz; die Jungen behalten ihre Sterne und wachsen zu erwachsenen Tieren heran. Mit dem Segeln-Cape kannst du außerdem eines deiner selbst gebauten Langschiffe oder Drakkars auswählen und auf sein Deck reisen. Die Liste öffnest du im Cape-Menü oder mit Umschalt+C; C bleibt Rückenwind. Starte vom festen Boden. Normale Teleportregeln gelten, mit einer eigenen sechsminütigen Abklingzeit nach der Ankunft. Flöße und Karven sind ausgeschlossen.
+
+### Bisherige Ergänzungen
 
 Aktualisiert für Valheim 1.0.17. Mastery erkennt die neue Spielversion; 1.0.15 und 1.0.16 bleiben unterstützt. Das sichtbare Inventarbild gefangener Blutegel und alle bisherigen Ergänzungen sind enthalten.
 
