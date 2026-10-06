@@ -54,7 +54,7 @@ High Alchemy requires Magic 55 and costs 5 Ember Runes, 1 Root Rune and 20 Eitr 
 
 Aktualisiert für Valheim 1.0.17. Mastery erkennt die neue Spielversion; 1.0.15 und 1.0.16 bleiben unterstützt. Das sichtbare Inventarbild gefangener Blutegel und alle bisherigen Ergänzungen sind enthalten.
 
-### Bisherige ErgÃ¤nzungen
+### Bisherige Ergänzungen
 
 Gefangene Blutegel haben jetzt ein sichtbares Inventarbild aus dem originalen Valheim-Modell. Bereits gefangene Tiere bleiben in ihren bisherigen Plätzen; Art und Sterne bleiben erhalten.
 
