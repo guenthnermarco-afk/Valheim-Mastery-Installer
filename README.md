@@ -2,7 +2,11 @@
 
 Build a character through 21 skills, find new ways to fight and explore, and earn equipment that shows what you have mastered. Mastery adds Prayer, Slayer, magic, animated capes and sails, a shared village-building area and voluntary Community rankings to Valheim. English and German are included.
 
-## New in 0.17.17
+## New in 0.17.18
+
+Tame lox can now follow you. Use E to switch between Follow and Stay; your whistle recalls only lox following your character. Existing lox work after loading again, and occupied saddles do not accept walking commands.
+
+## Previous additions
 
 The special energy bar now sits directly beneath the minimap. Shift+R arms the next special attack; press it again to cancel. Both Shift keys work, and ordinary R keeps its existing action.
 
@@ -50,7 +54,7 @@ The Defence cape's **Second chance** now restores full health when it saves you 
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.17 / Installer V87**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.17).
+Current release: **0.17.18 / Installer V88**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.18).
 
 Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
@@ -58,7 +62,11 @@ High Alchemy requires Magic 55 and costs 5 Ember Runes, 1 Root Rune and 20 Eitr 
 
 ## Deutsch
 
-### Neu in 0.17.17
+### Neu in 0.17.18
+
+Gezähmte Loxe können dir jetzt folgen. E wechselt zwischen Folgen und Warten; der Tierpfiff ruft nur Loxe, die deinem Charakter folgen. Auch vorhandene Loxe funktionieren nach erneutem Laden. Ein besetzter Sattel nimmt keine Laufbefehle an.
+
+### Bisherige Ergänzungen
 
 Die Spezialenergieleiste sitzt jetzt direkt unter der Minimap. Umschalt+R merkt den nächsten Spezialangriff vor; erneut drücken bricht die Vormerkung ab. Beide Umschalttasten funktionieren, die normale R-Funktion bleibt erhalten.
 
