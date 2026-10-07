@@ -2,7 +2,9 @@
 
 Build a character through 22 skills, find new ways to fight and explore, and earn equipment that shows what you have mastered. Mastery adds Prayer, Slayer, magic, animated capes and sails, a shared village-building area and voluntary Community rankings to Valheim. English and German are included.
 
-## New in 0.18.0
+## New in 0.18.1
+
+The Masteries list now keeps Beastmaster visible at the bottom on its first opening. The approved embossed skill icons are restored for all22 skills. Progress, gameplay and the public21-skill leaderboard are unchanged.
 
 Beastmaster is the 22nd internal skill: taming, riding and slaughter progression, tameable bears and mountain drakes, green saddles and controlled flight. Newborns can improve to three stars without losing their stronger regular parent rank; rare four-star mutations have regional colours, including animated Crystal and Ember variants. The new cape grants Packbond. Existing tame animals and XP remain intact. Apex now requires all 22 skills. The public leaderboard stays at 21 skills until the later public-platform release.
 
@@ -58,7 +60,7 @@ The Defence cape's **Second chance** now restores full health when it saves you 
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.18.0 / Installer V89**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.0).
+Current release: **0.18.1 / Installer V90**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.1).
 
 Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
@@ -66,7 +68,9 @@ High Alchemy requires Magic 55 and costs 5 Ember Runes, 1 Root Rune and 20 Eitr 
 
 ## Deutsch
 
-### Neu in 0.18.0
+### Neu in 0.18.1
+
+Tiermeister ist jetzt auch beim ersten Öffnen am unteren Ende der Meisterschaften erreichbar. Die bestätigten geprägten Skill-Icons sind für alle22 Skills wiederhergestellt. Fortschritt, Spielregeln und die öffentliche Rangliste mit21 Skills bleiben unverändert.
 
 Tiermeister ist der 22. interne Skill: Fortschritt durch Zähmen, Reiten und Schlachten, zähmbare Bären und Bergdrachen, grüne Sättel und kontrollierter Flug. Nachwuchs kann bis drei Sterne verbessern, ohne die stärkere reguläre Elternstufe zu verlieren; seltene Vier-Sterne-Mutationen haben regionale Farben, einschließlich animierter Kristall- und Glutvarianten. Das neue Cape bietet Rudelbund. Vorhandene gezähmte Tiere und XP bleiben erhalten. Apex benötigt jetzt alle 22 Skills. Die öffentliche Rangliste bleibt bis zum späteren Plattformrelease bei 21 Skills.
 
