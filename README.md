@@ -1,8 +1,12 @@
 # Valheim Mastery
 
-Build a character through 21 skills, find new ways to fight and explore, and earn equipment that shows what you have mastered. Mastery adds Prayer, Slayer, magic, animated capes and sails, a shared village-building area and voluntary Community rankings to Valheim. English and German are included.
+Build a character through 22 skills, find new ways to fight and explore, and earn equipment that shows what you have mastered. Mastery adds Prayer, Slayer, magic, animated capes and sails, a shared village-building area and voluntary Community rankings to Valheim. English and German are included.
 
-## New in 0.17.18
+## New in 0.18.0
+
+Beastmaster is the 22nd internal skill: taming, riding and slaughter progression, tameable bears and mountain drakes, green saddles and controlled flight. Newborns can improve to three stars without losing their stronger regular parent rank; rare four-star mutations have regional colours, including animated Crystal and Ember variants. The new cape grants Packbond. Existing tame animals and XP remain intact. Apex now requires all 22 skills. The public leaderboard stays at 21 skills until the later public-platform release.
+
+## Previous additions
 
 Tame lox can now follow you. Use E to switch between Follow and Stay; your whistle recalls only lox following your character. Existing lox work after loading again, and occupied saddles do not accept walking commands.
 
@@ -30,7 +34,7 @@ Ranged milestones now save ammunition at the moment of the shot: up to 45% at le
 
 Rune fire spells hit harder, burn in fixed damage steps and drop three times as many runes on a successful rune drop. Harpoon catches give reduced Fishing XP. Upgrade the Chitin harpoon through quality four for more durability, then continue at the Potential Forge. Fifteen added seeds and spores now have their own inventory artwork.
 
-Cape powers show their active time and cooldown in the buff bar. Deer can be tamed with suitable plant foods; from Hunting 86, deer stop fleeing from you. From Fishing 85, a harpoon can capture a living leech. Place the captured leech in an interaction slot and use it while looking at water to release it tamed. Its species and stars stay with it. Waterwalker also lets you approach fish without frightening them.
+Cape powers show their active time and cooldown in the buff bar. Deer can be tamed with suitable plant foods; from Hunting 86, deer stop fleeing from you. At Fishing 85 and Beastmaster 20, a harpoon can capture a living leech. Place the captured leech in an interaction slot and use it while looking at water to release it tamed. Its species and stars stay with it. Waterwalker also lets you approach fish without frightening them.
 
 ## Install or update
 
@@ -54,7 +58,7 @@ The Defence cape's **Second chance** now restores full health when it saves you 
 
 Close Valheim, extract the ZIP and run Installieren.exe. Choose the folder containing valheim.exe. Existing settings and progress remain; update the server and every player together. Back up your characters, worlds and full Mastery configuration first.
 
-Current release: **0.17.18 / Installer V88**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.17.18).
+Current release: **0.18.0 / Installer V89**. [What's new](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.0).
 
 Also included: **Shift + T** recalls your following animals, 30 carcass species have movable bodies, and supported natural encounters/loot renew after five in-game days. New Agility XP is 20% of the previous amount; existing progress stays intact. The package also includes mastery sails, chest reserves, a home marker and revised magic. The five-day renewal is not a full dungeon rebuild, and the separate animal portal issue remains open.
 
@@ -62,7 +66,11 @@ High Alchemy requires Magic 55 and costs 5 Ember Runes, 1 Root Rune and 20 Eitr 
 
 ## Deutsch
 
-### Neu in 0.17.18
+### Neu in 0.18.0
+
+Tiermeister ist der 22. interne Skill: Fortschritt durch Zähmen, Reiten und Schlachten, zähmbare Bären und Bergdrachen, grüne Sättel und kontrollierter Flug. Nachwuchs kann bis drei Sterne verbessern, ohne die stärkere reguläre Elternstufe zu verlieren; seltene Vier-Sterne-Mutationen haben regionale Farben, einschließlich animierter Kristall- und Glutvarianten. Das neue Cape bietet Rudelbund. Vorhandene gezähmte Tiere und XP bleiben erhalten. Apex benötigt jetzt alle 22 Skills. Die öffentliche Rangliste bleibt bis zum späteren Plattformrelease bei 21 Skills.
+
+### Bisherige Ergänzungen
 
 Gezähmte Loxe können dir jetzt folgen. E wechselt zwischen Folgen und Warten; der Tierpfiff ruft nur Loxe, die deinem Charakter folgen. Auch vorhandene Loxe funktionieren nach erneutem Laden. Ein besetzter Sattel nimmt keine Laufbefehle an.
 
@@ -90,7 +98,7 @@ Fernkampf-Meilensteine sparen Munition direkt beim Schuss: bis zu 45% auf Level 
 
 Runen-Feuerzauber treffen kräftiger, Brennen verwendet feste Schadensstufen und erfolgreiche Runen-Drops liefern die dreifache Menge. Harpunenfänge geben deutlich weniger Angel-XP. Die Chitinharpune lässt sich bis Qualität vier für mehr Haltbarkeit aufwerten, danach geht es an der Potenzialschmiede weiter. Die fünfzehn zusätzlichen Saaten und Sporen haben eigene Inventar-Icons.
 
-Cape-Kräfte zeigen aktive Laufzeit und Abklingzeit in der Buff-Leiste. Hirsche lassen sich mit passendem Pflanzenfutter zähmen; ab Jagen 86 fliehen sie nicht mehr vor dir. Ab Angeln 85 kannst du lebende Blutegel mit der Harpune einfangen. Den gefangenen Blutegel in einen Interaktionsslot legen und mit Blick auf Wasser benutzen, um ihn gezähmt freizulassen. Art und Sterne bleiben erhalten. Mit Wasserwanderer kannst du dich außerdem Fischen nähern, ohne sie zu verscheuchen.
+Cape-Kräfte zeigen aktive Laufzeit und Abklingzeit in der Buff-Leiste. Hirsche lassen sich mit passendem Pflanzenfutter zähmen; ab Jagen 86 fliehen sie nicht mehr vor dir. Ab Angeln 85 und Tiermeister 20 kannst du lebende Blutegel mit der Harpune einfangen. Den gefangenen Blutegel in einen Interaktionsslot legen und mit Blick auf Wasser benutzen, um ihn gezähmt freizulassen. Art und Sterne bleiben erhalten. Mit Wasserwanderer kannst du dich außerdem Fischen nähern, ohne sie zu verscheuchen.
 
 
 Das Angelcape lässt dich jetzt vier Minuten über Wasser laufen, mit passenden
@@ -109,7 +117,7 @@ Opfergaben wurden einzeln angepasst: Verdorrte Knochen geben **1.500 XP bei ×1*
 
 Die **Zweite Chance** des Verteidigungscapes stellt beim Schutz vor einem tödlichen Treffer jetzt die volle Gesundheit wieder her, einmal alle sechs Minuten. Das geschieht automatisch, ohne C.
 
-Entwickle deinen Charakter über 21 Fertigkeiten weiter und verdiene Ausrüstung, die deine Meisterschaft zeigt. Gebete, Slayer-Aufträge, Magie, animierte Capes und Segel, ein gemeinsames Baugebiet und eine freiwillige Community-Rangliste ergänzen Valheim.
+Entwickle deinen Charakter über 22 Fertigkeiten weiter und verdiene Ausrüstung, die deine Meisterschaft zeigt. Gebete, Slayer-Aufträge, Magie, animierte Capes und Segel, ein gemeinsames Baugebiet und eine freiwillige Community-Rangliste ergänzen Valheim.
 
 Valheim schließen, ZIP entpacken und Installieren.exe starten. Den Ordner mit valheim.exe wählen. Vorhandene Einstellungen und Fortschritte bleiben; Server und alle Mitspieler gemeinsam aktualisieren. Charaktere, Welten und den vollständigen Mastery-Konfigurationsordner vorher sichern.
 
