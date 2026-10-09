@@ -1,15 +1,15 @@
-# Valheim Mastery — 0.18.4
+# Valheim Mastery — 0.18.5
 
 Valheim Mastery adds **22 skills** for combat, exploration, production and animal husbandry. Each skill has milestones and a Mastery Cape at level 100; mastering all 22 unlocks the animated Apex Cape. Slayer contracts, 30 prayers, rune magic and optional equipment quality extend character progression. English and German are supported.
 
 Inspired by Old School RuneScape progression, adapted to Valheim. This independent fan-made mod is not affiliated with or endorsed by Jagex.
 
-## New in 0.18.4
+## New in 0.18.5
 
-- Necks unlock for taming at Beastmaster level 5 and use the existing feeding, breeding, mutation and animal-care rules.
-- Tamed adult deer, boars, hens, Necks and released leeches support Follow/Stay commands. Deer retain their native AnimalAI.
-- Original hit-splat plates distinguish normal damage (red), burning (orange), poison (green), spirit damage over time (light blue), and confirmed tranquilization (yellow 1). Damage values are unchanged.
-- Tranquilizer arrows stop visibly on protected tame contacts without adding damage or tranquilization. Existing following, animal identities and progression are retained.
+- Tamed animals now show a compact star row below their health bar, independent of creature model size. One through four stars remain gold; five stars remain pink. Wild creatures retain their existing star placement.
+- Hit numbers now display whole values: 59.8 is shown as 60. Actual HP changes and network damage values retain their original precision; healing and blocked-hit labels remain intact.
+- Hit numbers are 15% smaller. Irregular hit splashes with subtle texture replace the smooth rectangular plates; their bounds fit the rendered numbers, including larger values and native font-size variations. Text and splash remain centred as the popup fades.
+- Released leeches and their young stay fed for 600 seconds instead of the native dynamically added Tameable default of 30 seconds. Both leech variants are covered; preparing an existing animal preserves its last feeding time, tame state and ownership.
 
 ## Animal husbandry
 
@@ -45,7 +45,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.4, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.5, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -63,7 +63,7 @@ The optional Comfort Pack adds UI, inventory and building conveniences. Optional
 
 Valheim Mastery ergänzt **22 Skills** für Kampf, Reisen, Herstellung und Tierhaltung. Jeder Skill hat Meilensteine und ab Level 100 ein Mastery-Cape; alle 22 zusammen schalten das animierte Apex-Cape frei. Slayer-Aufträge, 30 Gebete, Runenmagie und optionale Gegenstandsqualität erweitern den Fortschritt.
 
-Neu in 0.18.4: Nixen werden ab Tiermeister 5 zaehmbar und nutzen die bestehenden Futter-, Zucht-, Mutations- und Pflegeregeln. Weitere zahme erwachsene Tiere erhalten Folgen/Warten. Eigene farbige Trefferplaketten zeigen Schaden und bestaetigte Betaeubung ohne geaenderte Schadenswerte.
+Seit 0.18.4: Nixen werden ab Tiermeister 5 zaehmbar und nutzen die bestehenden Futter-, Zucht-, Mutations- und Pflegeregeln. Weitere zahme erwachsene Tiere erhalten Folgen/Warten. Eigene farbige Hitsplashes zeigen Schaden und bestätigte Betäubung ohne geänderte Schadenswerte.
 
 **Tiermeister** verbindet Zähmen, Reiten, Schlachten und Zucht. Freischaltungen reichen vom Wildschwein und Huhn bis zum großen Bergdrachen auf 90. Normale Nachzucht kann sich bis zu vier Sternen verbessern und fällt nicht unter die geerbte natürliche Sternestufe des stärkeren Elternteils. Mutationen erzeugen vier- oder fünfsternige Tiere in 14 Farbvarianten, darunter animierte Kristall- und Glutformen. Sterne eins bis vier bleiben gold, fünf Sterne erscheinen pink. Geeignete native Gegnerspawns können fünf Sterne erreichen; festgelegte Gegnerstufen bleiben unverändert.
 
@@ -79,8 +79,15 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.4, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.5, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
 Deutsch/englische Anleitungen und Tabellen stehen im Wiki. **Bekannte Einschränkung:** Folgende Tiere können bei Portalreisen zurückbleiben. Der Pfiff ist eine separate Abruffunktion mit eigener Prüfung sicherer Ankunftsplätze. Fehler mit Versionen und nachvollziehbarem Ablauf melden, private Angaben aus Ausschnitten entfernen.
+
+## Änderungen in 0.18.5
+
+- Zahme Tiere zeigen eine kompakte Sternreihe unter dem Lebensbalken, unabhängig von der Größe des Tiermodells. Ein bis vier Sterne bleiben goldfarben, fünf Sterne pink. Die Sternposition wilder Tiere bleibt erhalten.
+- Trefferzahlen erscheinen ohne Nachkommastellen: 59,8 wird als 60 angezeigt. Tatsächliche Lebenspunktänderungen und Netzwerk-Schadenswerte behalten ihre Genauigkeit; Heilungs- und Blockiertexte bleiben erhalten.
+- Trefferzahlen sind 15% kleiner. Unregelmäßige Hitsplashes mit dezenter Struktur ersetzen die glatten rechteckigen Plaketten; ihre Größe passt sich an die tatsächlich dargestellten Zahlen an, auch bei größeren Werten und nativen Schriftgrößen. Zahl und Hitsplash bleiben beim Ausblenden zentriert.
+- Freigelassene Blutegel und ihre Jungtiere bleiben 600 statt 30 Sekunden satt. Beide Blutegelarten sind erfasst; die Vorbereitung bestehender Tiere erhält den letzten Fütterungszeitpunkt, Zähmzustand und Besitzer.
