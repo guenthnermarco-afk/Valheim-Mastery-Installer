@@ -1,14 +1,14 @@
-# Valheim Mastery — 0.18.7
+# Valheim Mastery — 0.18.8
 
-0.18.7 includes a dedicated-server hotfix: client-only UI entry points and cleanup avoid native GUI calls when graphics are unavailable. This addresses the Linux dedicated-server crash traced to bug-report window cleanup. The 0.18.6 / V95 publication was withdrawn and returned to draft; its features below are included in this replacement. Native Null-graphics and client regression checks passed. A fresh Linux dedicated-server start loaded the world and connected successfully.
+0.18.8: Tamed and wild deer no longer treat other deer as enemies. Existing deer targets are cleared by the owning instance. Wild deer still fear fire and genuine enemies. No save migration or XP recalculation is introduced. The final Core passed 162 focused native checks covering AI, feeding, taming progress and following. These use explicit target, ownership, time and item-position fixtures; they do not establish two-peer behavior or natural 30-minute completion.
 
-0.18.7 enthält einen Dedicated-Server-Hotfix: Einstieg und Bereinigung der Client-Oberflächen vermeiden native GUI-Aufrufe ohne verfügbare Grafik. Dies adressiert den Linux-Dedicated-Absturz bei der Bereinigung des Bugreport-Fensters. Die Veröffentlichung 0.18.6 / V95 wurde zurückgenommen und wieder als Entwurf gespeichert; seine folgenden Funktionen sind in diesem Ersatz enthalten. Native Nullgrafik- und Clientprüfungen bestanden. Ein frischer Linux-Dedicated-Start hat die Welt geladen und sich erfolgreich verbunden.
+0.18.8: Zahme und wilde Hirsche behandeln Artgenossen nicht mehr als Gegner. Bereits gesetzte Hirschziele werden auf der zuständigen Owner-Instanz bereinigt. Wilde Hirsche fürchten weiterhin Feuer und echte Feinde. Keine Spielstandmigration oder XP-Neuberechnung. Der finale Core bestand 162 gezielte native Prüfungen für KI, Futteraufnahme, Zähmfortschritt und Folgen. Dabei wurden Ziele, Ownership, Zeit und Itempositionen ausdrücklich als Fixtures gesetzt; dies belegt weder Zwei-Peer-Verhalten noch einen natürlichen 30-Minuten-Durchlauf.
 
 Valheim Mastery adds **22 skills** for combat, exploration, production and animal husbandry. Each skill has milestones and a Mastery Cape at level 100; mastering all 22 unlocks the animated Apex Cape. Slayer contracts, 30 prayers, rune magic and optional equipment quality extend character progression. English and German are supported.
 
 Inspired by Old School RuneScape progression, adapted to Valheim. This independent fan-made mod is not affiliated with or endorsed by Jagex.
 
-## New in 0.18.7
+## Retained features from 0.18.7
 
 - **Report a bug** opens a modal form from the inventory. Enter a title, description and optional reproduction steps. The form displays Mastery and game versions and opens a prefilled GitHub issue only when you click the button. You review and submit it with your GitHub account. No logs, saves, player/world identifiers or account data are attached. Copy report is available as a local fallback.
 - Creature stars use the original vanilla star sprite and shadow: gold for one to four, pink for five. Tamed animals retain the compact row below their health bar. Wild one/two-star indicators stay native; three to five extend the same visual style.
@@ -52,7 +52,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.7, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.8, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -86,13 +86,13 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.7, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.8, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
 Deutsch/englische Anleitungen und Tabellen stehen im Wiki. **Bekannte Einschränkung:** Folgende Tiere können bei Portalreisen zurückbleiben. Der Pfiff ist eine separate Abruffunktion mit eigener Prüfung sicherer Ankunftsplätze. Fehler mit Versionen und nachvollziehbarem Ablauf melden, private Angaben aus Ausschnitten entfernen.
 
-## Änderungen in 0.18.7
+## Übernommene Funktionen aus 0.18.7
 
 - **Report a bug** öffnet im Inventar ein modales Formular für Titel, Beschreibung und optionale Reproduktionsschritte. Mastery- und Spielversion werden sichtbar ergänzt. Erst der eigene Klick öffnet ein vorausgefülltes GitHub-Issue; Prüfung und Versand erfolgen über das eigene GitHub-Konto. Logs, Saves, Spieler-/Weltnamen und Kontodaten werden nicht angehängt. Bericht kopieren dient als lokaler Ausweichweg.
 - Tiersterne verwenden die originale Vanilla-Sternform samt Schatten: eins bis vier goldfarben, fünf pink. Zahme Tiere behalten die kompakte Reihe unter dem Lebensbalken. Wilde Ein-/Zwei-Sternanzeigen bleiben nativ, drei bis fünf ergänzen dieselbe Form.
