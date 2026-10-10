@@ -1,26 +1,24 @@
-# Valheim Mastery — 0.18.11
+# Valheim Mastery — 0.18.12
 
-## Changes in 0.18.11
+## Änderungen
 
-- Mastery now handles depositing and chest-funded crafting inside the active, host-authorized building area. Its saved radius applies, up to 245 metres; eligible distant chests remain usable without loading the surrounding landscape.
-- Use **Deposit all / P** in the inventory. When holding an item on the native cursor, the same action deposits that item or held partial stack, even without an open chest. Bulk deposit protects hotbar, equipped and quest items. Matching chest filters take priority, followed by chests already holding the item; remaining items stay with you.
-- Crafting, upgrades and the existing queue may use missing ingredients from permitted area chests. Local ingredients are used first. Reserve free normal inventory slots for staging ingredients. Existing recipe discovery, station/skill requirements, payments, material-saving rules and XP remain in effect; cancellation returns unspent ingredients with their metadata.
-- Private access, wards, occupied containers and transaction leases remain enforced. A headless host can temporarily load an unowned/host-owned chest for authorization without overwriting its saved contents.
-- Existing third-party modules and settings are retained. This does not replace every QuickStackPlus/AzuCraftyBoxes feature: building, machines, fuel, sorting, trash/filter interfaces and behavior outside the area keep their separate paths.
+Manuelles Ablegen und Umschalt-Klick auf eine geöffnete Kiste behalten wieder das gewählte Ziel, auch wenn diese Kiste leer und ungefiltert ist. Die Gebietssuche greift bei diesen gezielten Inventaraktionen nicht ein.
 
-## Änderungen in 0.18.11
+**P** lagert passende Gegenstände auch bei geschlossenem Inventar im aktiven Baugebiet ein. Chat, Texteingabe, Lesen und modale Dialoge sperren die Aktion. **Alles einlagern / P** bleibt eine Suche nach passenden Kisten: Filter haben Vorrang, danach Kisten mit vorhandenem Gegenstand. Eine leere ungefilterte Kiste wird beim Sammel-Einlagern nicht beliebig befüllt. Einen Gegenstand gezielt dort ablegen ist weiterhin möglich.
 
-- Mastery übernimmt Einlagern und Herstellung aus Kisten im aktiven, vom Host freigegebenen Baugebiet. Der gespeicherte Radius gilt, bis zu 245 Meter. Geeignete entfernte Kisten bleiben zugänglich, ohne die umliegende Landschaft nachzuladen.
-- Im Inventar **Alles einlagern / P** verwenden. Liegt ein Gegenstand am nativen Cursor, lagert derselbe Button diesen Gegenstand oder den aufgenommenen Teilstapel ein, auch ohne offene Kiste. Sammel-Einlagern schützt Schnellleiste, Ausrüstung und Questgegenstände. Passende Kistenfilter haben Vorrang, danach Kisten mit vorhandenem Gegenstand; Restmengen bleiben beim Spieler.
-- Herstellung, Aufwertung und bestehende Warteschlange beziehen fehlende Zutaten aus zugänglichen Gebietskisten. Eigene Zutaten haben Vorrang. Für die Vorbereitung werden freie normale Inventarplätze benötigt. Rezeptentdeckung, Stations-/Skillanforderungen, Kosten, Materialersparnis und XP bleiben maßgeblich; Abbruch gibt unverbrauchte Zutaten samt Metadaten zurück.
-- Private Rechte, Schutzsteine, belegte Kisten und Transaktionssperren bleiben wirksam. Der Headless-Host kann eine besitzerlose oder eigene Kiste zur Freigabe vorübergehend laden, ohne gespeicherte Inhalte zu überschreiben.
-- Drittmods und bestehende Einstellungen bleiben erhalten. Dies ersetzt nicht alle QuickStackPlus-/AzuCraftyBoxes-Funktionen: Bauen, Maschinen, Brennstoff, Sortieren, Müll-/Filteroberflächen und Verhalten außerhalb des Gebiets bleiben eigene Pfade.
+Herstellung aus Gebietskisten, Materialzahlung, Rückgabe unverbrauchter Zutaten, XP sowie private Rechte und Transaktionssperren bleiben unverändert. Das Paket erhält die bisherigen Drittmods und Einstellungen; gegenüber V99 ändern sich im eingebetteten Payload nur Core, Core-README und Versionsinformation.
 
-## Validation limits / Nachweisgrenzen
+## Changes
 
-The exact Core passed 189 local native checks, including payment/XP parity, cancellation, queue, upgrades, real distant proxies and DE/EN UI at 640×480 and 1280×720. This is a local host/client fixture, not proof of simultaneous access by two clients. Physical controller navigation and crash-atomic world/character saves are not guaranteed. A transaction is limited to 512 chests and needs free normal inventory slots. Separate dedicated-server checks do not replace two-client contention tests.
+Manual placement and Shift-click into an open chest preserve the selected destination, including an empty, unfiltered chest. These targeted inventory actions are no longer redirected through area matching.
 
-Der exakte Core bestand 189 lokale native Prüfungen einschließlich Kosten-/XP-Parität, Abbruch, Queue, Aufwertung, tatsächlichen Fernproxies und DE/EN bei 640×480 sowie 1280×720. Das ist eine lokale Host-/Client-Fixture, kein Nachweis gleichzeitiger Zugriffe zweier Clients. Physische Controller-Navigation und atomare Welt-/Charakterspeicherung bei Prozessabbruch sind nicht zugesichert. Ein Auftrag ist auf 512 Kisten begrenzt und benötigt freie normale Inventarplätze. Separate Dedicated-Prüfungen ersetzen keine Zwei-Client-Konkurrenztests.
+**P** deposits matching items inside the active building area even while the inventory is closed. Chat, text entry, reading and modal dialogs block the action. **Deposit all / P** still targets matching chests: matching filters first, then chests already containing the item. Bulk deposit does not fill arbitrary empty, unfiltered chests; manual placement remains available.
+
+Area crafting, payments, unspent-ingredient returns, XP, private permissions and transaction leases remain unchanged. Third-party modules and settings are retained. Only Core, its README and version information change in the embedded payload compared with V99.
+
+## Validation scope / Nachweisgrenzen
+
+Native regression checks cover callbacks, shortcut wiring and input gates. No physical P-key press or simultaneous two-client contention is claimed. / Die native Regression prüft Callbacks, Tastenanbindung und Eingabesicherungen. Ein physisch erzeugter P-Tastendruck und gleichzeitige Zwei-Client-Zugriffe werden nicht als nachgewiesen behauptet.
 
 ## Retained changes from 0.18.10 / Übernommen aus 0.18.10
 
@@ -72,7 +70,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.11, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.12, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -106,7 +104,7 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.11, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.12, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
