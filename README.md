@@ -1,26 +1,32 @@
-# Valheim Mastery — 0.18.10
+# Valheim Mastery — 0.18.11
 
-## Changes in 0.18.10
+## Changes in 0.18.11
 
-- Signs show either their native text or one centred item icon. Text stays saved; choose **Text (no icon)** to restore it. The icon uses up to 90% of the original text height, limited by sign width. Native access and user-content permission checks remain.
-- The icon picker excludes tools, torches, weapons, shields, armour and equipment accessories. Known materials, food, seeds, ammunition and trophies remain available. Previously saved equipment icons still display and survive text edits; unknown keys remain stored.
-- Tamed creature stars use vanilla size and position: native one/two-star objects and matching native sprites for three/four gold stars or five pink stars. The previous compact tamed layout is removed.
-- Existing offspring retain their saved rank instead of being lowered during later juvenile initialization. No reroll of existing animals or new breeding-rate increase is introduced.
-- Young deer and white deer receive their missing feeding adapter and 600-second fed duration. Young necks and drakes receive the missing meat list. Repairs are restricted to registered Mastery young prefabs with the matching adult growth link; juvenile commands, riding and breeding stay unavailable.
-- Player-dropped Lingonberry, Fiddleheadfern and MushroomSmokePuff now receive the existing feeder metadata required by moose/asksvin food checks. Level, ownership and cheated-item restrictions remain. Like other marked foods, these three dropped foods no longer automatically merge, preserving the original feeder attribution.
+- Mastery now handles depositing and chest-funded crafting inside the active, host-authorized building area. Its saved radius applies, up to 245 metres; eligible distant chests remain usable without loading the surrounding landscape.
+- Use **Deposit all / P** in the inventory. When holding an item on the native cursor, the same action deposits that item or held partial stack, even without an open chest. Bulk deposit protects hotbar, equipped and quest items. Matching chest filters take priority, followed by chests already holding the item; remaining items stay with you.
+- Crafting, upgrades and the existing queue may use missing ingredients from permitted area chests. Local ingredients are used first. Reserve free normal inventory slots for staging ingredients. Existing recipe discovery, station/skill requirements, payments, material-saving rules and XP remain in effect; cancellation returns unspent ingredients with their metadata.
+- Private access, wards, occupied containers and transaction leases remain enforced. A headless host can temporarily load an unowned/host-owned chest for authorization without overwriting its saved contents.
+- Existing third-party modules and settings are retained. This does not replace every QuickStackPlus/AzuCraftyBoxes feature: building, machines, fuel, sorting, trash/filter interfaces and behavior outside the area keep their separate paths.
 
-## Änderungen in 0.18.10
+## Änderungen in 0.18.11
 
-- Schilder zeigen entweder nativen Text oder ein mittiges Gegenstandssymbol. Der Text bleibt gespeichert; **Text (kein Symbol)** stellt ihn wieder her. Das Icon nutzt bis zu 90% der ursprünglichen Texthöhe, begrenzt durch die Schildbreite. Native Zugriffs- und Inhaltsfreigaben bleiben zuständig.
-- Die Symbolauswahl enthält keine Werkzeuge, Fackeln, Waffen, Schilde, Rüstung oder Ausrüstungsaccessoires. Bekannte Materialien, Nahrung, Saaten, Munition und Trophäen bleiben auswählbar. Gespeicherte Ausrüstungsicons bleiben sichtbar und bei Textänderungen erhalten; unbekannte Schlüssel bleiben gespeichert.
-- Zahme Tiere verwenden Vanilla-Größe und -Position für Sterne: native Ein-/Zwei-Sternobjekte und passende native Sprites für drei/vier goldene oder fünf pinke Sterne. Die bisherige kompakte Tame-Anzeige entfällt.
-- Bestehende Nachkommen behalten ihren gespeicherten Rang, statt bei späterer Jungtierinitialisierung herabgestuft zu werden. Keine neue Auswürfelung vorhandener Tiere und keine erneute Erhöhung der Vermehrungsrate.
-- Junge Hirsche und weiße Hirsche erhalten den fehlenden Futteradapter und 600 Sekunden Sättigung. Junge Nixen und Drachen erhalten die fehlende Fleischliste. Die Reparatur gilt nur für registrierte Mastery-Jungtierprefabs mit passendem Erwachsenenlink; Jungtierbefehle, Reiten und Vermehrung bleiben gesperrt.
-- Vom Spieler abgeworfene Lingonberry, Fiddleheadfern und MushroomSmokePuff erhalten die vorhandenen Fütterernachweise für Elch-/Asksvin-Futterprüfungen. Level-, Besitzer- und Cheatregeln bleiben. Wie andere markierte Nahrung werden diese drei Bodengegenstände nicht automatisch zusammengelegt, damit der ursprüngliche Fütterer erhalten bleibt.
+- Mastery übernimmt Einlagern und Herstellung aus Kisten im aktiven, vom Host freigegebenen Baugebiet. Der gespeicherte Radius gilt, bis zu 245 Meter. Geeignete entfernte Kisten bleiben zugänglich, ohne die umliegende Landschaft nachzuladen.
+- Im Inventar **Alles einlagern / P** verwenden. Liegt ein Gegenstand am nativen Cursor, lagert derselbe Button diesen Gegenstand oder den aufgenommenen Teilstapel ein, auch ohne offene Kiste. Sammel-Einlagern schützt Schnellleiste, Ausrüstung und Questgegenstände. Passende Kistenfilter haben Vorrang, danach Kisten mit vorhandenem Gegenstand; Restmengen bleiben beim Spieler.
+- Herstellung, Aufwertung und bestehende Warteschlange beziehen fehlende Zutaten aus zugänglichen Gebietskisten. Eigene Zutaten haben Vorrang. Für die Vorbereitung werden freie normale Inventarplätze benötigt. Rezeptentdeckung, Stations-/Skillanforderungen, Kosten, Materialersparnis und XP bleiben maßgeblich; Abbruch gibt unverbrauchte Zutaten samt Metadaten zurück.
+- Private Rechte, Schutzsteine, belegte Kisten und Transaktionssperren bleiben wirksam. Der Headless-Host kann eine besitzerlose oder eigene Kiste zur Freigabe vorübergehend laden, ohne gespeicherte Inhalte zu überschreiben.
+- Drittmods und bestehende Einstellungen bleiben erhalten. Dies ersetzt nicht alle QuickStackPlus-/AzuCraftyBoxes-Funktionen: Bauen, Maschinen, Brennstoff, Sortieren, Müll-/Filteroberflächen und Verhalten außerhalb des Gebiets bleiben eigene Pfade.
 
-Valheim Mastery adds **22 skills** for combat, exploration, production and animal husbandry. Each skill has milestones and a Mastery Cape at level 100; mastering all 22 unlocks the animated Apex Cape. Slayer contracts, 30 prayers, rune magic and optional equipment quality extend character progression. English and German are supported.
+## Validation limits / Nachweisgrenzen
 
-Inspired by Old School RuneScape progression, adapted to Valheim. This independent fan-made mod is not affiliated with or endorsed by Jagex.
+The exact Core passed 189 local native checks, including payment/XP parity, cancellation, queue, upgrades, real distant proxies and DE/EN UI at 640×480 and 1280×720. This is a local host/client fixture, not proof of simultaneous access by two clients. Physical controller navigation and crash-atomic world/character saves are not guaranteed. A transaction is limited to 512 chests and needs free normal inventory slots. Separate dedicated-server checks do not replace two-client contention tests.
+
+Der exakte Core bestand 189 lokale native Prüfungen einschließlich Kosten-/XP-Parität, Abbruch, Queue, Aufwertung, tatsächlichen Fernproxies und DE/EN bei 640×480 sowie 1280×720. Das ist eine lokale Host-/Client-Fixture, kein Nachweis gleichzeitiger Zugriffe zweier Clients. Physische Controller-Navigation und atomare Welt-/Charakterspeicherung bei Prozessabbruch sind nicht zugesichert. Ein Auftrag ist auf 512 Kisten begrenzt und benötigt freie normale Inventarplätze. Separate Dedicated-Prüfungen ersetzen keine Zwei-Client-Konkurrenztests.
+
+## Retained changes from 0.18.10 / Übernommen aus 0.18.10
+
+Text-or-icon signs, vanilla-sized tamed stars, preserved existing offspring ranks and the feeding fixes remain included. No new breeding-rate or loot/XP balance change is introduced by area storage.
+
+Text-oder-Icon-Schilder, Vanilla-Sterne zahmer Tiere, erhaltener Nachkommenrang und die Fütterungsreparaturen bleiben enthalten. Gebietslager führen keine neue Vermehrungsrate oder Beute-/XP-Balanceänderung ein.
 
 ## Retained features from 0.18.7
 
@@ -66,13 +72,13 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.10, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.11, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
 New profiles use XP ×1. Existing progress and settings are retained. Apex is checked against all 22 level-100 skills: an old 21-skill entitlement does not grant access before Beastmaster 100. Previously tamed animals are retained; mixed historical Farming XP is not blindly reassigned to the new skill.
 
-The optional Comfort Pack adds UI, inventory and building conveniences. Optional item quality, enemy gear drops and weapon specials are off in fresh Core configurations; enable matching rules on each peer if desired. AzuCraftyBoxes is optional for shared-area chest access and reserves.
+The optional Comfort Pack adds UI, inventory and building conveniences. Optional item quality, enemy gear drops and weapon specials are off in fresh Core configurations; enable matching rules on each peer if desired. Mastery area storage does not require AzuCraftyBoxes; its other optional integrations remain separate.
 
 ## Wiki and support
 
@@ -100,7 +106,7 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.10, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.11, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
