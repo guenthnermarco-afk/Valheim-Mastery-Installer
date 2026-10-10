@@ -1,32 +1,20 @@
-# Valheim Mastery — 0.18.14
+# Valheim Mastery — 0.18.15
 
-## Release correction / Releasekorrektur
+Valheim Mastery adds 22 skills, mastery capes, Beastmaster animal husbandry, Slayer contracts, prayers and rune magic. English and German are supported.
 
-Replaces withdrawn Installer V101. Experimental test-only construction and XP controls are excluded. Inventory and leech-feeding fixes below remain included. Existing saved progress requires no reset.
+## New in 0.18.15 / Neu in 0.18.15
 
-Ersetzt den zurückgezogenen Installer V101. Experimentelle Testfunktionen für Bauwerkzeuge und XP-Steuerung sind nicht enthalten. Die unten aufgeführten Inventar- und Fütterungskorrekturen bleiben enthalten. Gespeicherter Fortschritt muss nicht zurückgesetzt werden.
+Tamed deer, white deer and their Mastery young can eat their existing foods from the optional Animal Feeding Trough. Native hunger, payment and ten-minute satiation remain. A trough reserved by an area-storage transaction cannot produce an unpaid serving.
 
-## Änderungen
+Zahme Hirsche, weiße Hirsche und ihre Mastery-Jungen fressen ihr vorhandenes Futter aus dem optionalen Animal Feeding Trough. Hunger, Materialverbrauch und zehn Minuten Sättigung bleiben erhalten. Während einer Gebietslager-Reservierung entstehen keine unbezahlten Trogportionen.
 
-- Der kompakte P-Button sitzt wieder neben O unter der Inventarlast. Aktion und letztes Ergebnis stehen im Tooltip.
-- Einlagern und Zutatenbereitstellung berücksichtigen alle normalen sichtbaren Inventarzeilen, auch durch EquipmentAndQuickSlots erweiterte Zeilen. Schnellleiste, Ausrüstung und reservierte Sonderplätze bleiben geschützt.
-- Gebietslager protokollieren tatsächliche Aktionen, feste Ablehnungsgründe und aggregierte Mengen lokal. Keine Welt-, Spieler- oder Kistenkennungen werden in diese Meldungen aufgenommen.
-- Freigelassene Blutegel und ihr Nachwuchs fressen rohes Wolfsfleisch. Der Futtertrog akzeptiert und verteilt es über die vorhandene Tierfütterung. Eine Portion sättigt weiterhin zehn Minuten; Zuchtwerte bleiben erhalten.
+## Area storage / Gebietslager
 
-## Changes
+Use the compact P button beneath inventory weight or press P when gameplay input is allowed to deposit matching items into authorized chests in the same valid building area. Holding an inventory item selects that stack or partial stack. Bulk deposit protects hotbar, equipment and reserved cells. Crafting stages missing materials after using local inventory. Manual transfers to an open chest retain their exact native destination, including empty chests. Other convenience-mod functions remain separate.
 
-- The compact P button is restored beside O beneath inventory weight. Its tooltip provides the action and most recent result.
-- Deposit and ingredient staging include every ordinary visible inventory row, including EquipmentAndQuickSlots expansions. Hotbar, equipment and reserved special cells remain protected.
-- Area storage logs actual actions, fixed rejection reasons and aggregate counts locally, without world, player or chest identifiers in these messages.
-- Released leeches and their offspring eat raw wolf meat. Feeding troughs accept it and serve it through the existing animal-feeding path. Each serving still provides ten minutes of satiation; breeding values are retained.
+Mit dem kompakten P-Button unter der Inventarlast oder P bei erlaubter Spieleingabe passende Gegenstände in erlaubte Kisten desselben gültigen Baugebiets einlagern. Ein Stapel am Inventarcursor wählt diesen Stapel oder Teilstapel. Masseneinlagerung schützt Schnellleiste, Ausrüstung und Sonderplätze. Herstellung nutzt lokale Zutaten zuerst. Manuelles Einlagern behält die genaue offene Zielkiste, auch wenn sie leer ist.
 
-Third-party modules and settings are retained. Only Core, its README and version information change in the embedded payload compared with V100.
-
-## Retained changes from 0.18.10 / Übernommen aus 0.18.10
-
-Text-or-icon signs, vanilla-sized tamed stars, preserved existing offspring ranks and the feeding fixes remain included. No new breeding-rate or loot/XP balance change is introduced by area storage.
-
-Text-oder-Icon-Schilder, Vanilla-Sterne zahmer Tiere, erhaltener Nachkommenrang und die Fütterungsreparaturen bleiben enthalten. Gebietslager führen keine neue Vermehrungsrate oder Beute-/XP-Balanceänderung ein.
+Cumulative changes since 0.18.2 are documented in PATCHNOTES-0.18.15 / RELEASE-NOTES-0.18.15. Feeding checks do not establish natural long-distance paths, prolonged feeding or simultaneous two-client contention. Native juvenile stages without hunger retain their existing growth behavior.
 
 ## Retained features from 0.18.7
 
@@ -72,7 +60,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.14, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.15, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -106,7 +94,7 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.14, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.15, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
