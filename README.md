@@ -1,24 +1,20 @@
-# Valheim Mastery — 0.18.12
+# Valheim Mastery — 0.18.13
 
 ## Änderungen
 
-Manuelles Ablegen und Umschalt-Klick auf eine geöffnete Kiste behalten wieder das gewählte Ziel, auch wenn diese Kiste leer und ungefiltert ist. Die Gebietssuche greift bei diesen gezielten Inventaraktionen nicht ein.
-
-**P** lagert passende Gegenstände auch bei geschlossenem Inventar im aktiven Baugebiet ein. Chat, Texteingabe, Lesen und modale Dialoge sperren die Aktion. **Alles einlagern / P** bleibt eine Suche nach passenden Kisten: Filter haben Vorrang, danach Kisten mit vorhandenem Gegenstand. Eine leere ungefilterte Kiste wird beim Sammel-Einlagern nicht beliebig befüllt. Einen Gegenstand gezielt dort ablegen ist weiterhin möglich.
-
-Herstellung aus Gebietskisten, Materialzahlung, Rückgabe unverbrauchter Zutaten, XP sowie private Rechte und Transaktionssperren bleiben unverändert. Das Paket erhält die bisherigen Drittmods und Einstellungen; gegenüber V99 ändern sich im eingebetteten Payload nur Core, Core-README und Versionsinformation.
+- Der kompakte P-Button sitzt wieder neben O unter der Inventarlast. Aktion und letztes Ergebnis stehen im Tooltip.
+- Einlagern und Zutatenbereitstellung berücksichtigen alle normalen sichtbaren Inventarzeilen, auch durch EquipmentAndQuickSlots erweiterte Zeilen. Schnellleiste, Ausrüstung und reservierte Sonderplätze bleiben geschützt.
+- Gebietslager protokollieren tatsächliche Aktionen, feste Ablehnungsgründe und aggregierte Mengen lokal. Keine Welt-, Spieler- oder Kistenkennungen werden in diese Meldungen aufgenommen.
+- Freigelassene Blutegel und ihr Nachwuchs fressen rohes Wolfsfleisch. Der Futtertrog akzeptiert und verteilt es über die vorhandene Tierfütterung. Eine Portion sättigt weiterhin zehn Minuten; Zuchtwerte bleiben erhalten.
 
 ## Changes
 
-Manual placement and Shift-click into an open chest preserve the selected destination, including an empty, unfiltered chest. These targeted inventory actions are no longer redirected through area matching.
+- The compact P button is restored beside O beneath inventory weight. Its tooltip provides the action and most recent result.
+- Deposit and ingredient staging include every ordinary visible inventory row, including EquipmentAndQuickSlots expansions. Hotbar, equipment and reserved special cells remain protected.
+- Area storage logs actual actions, fixed rejection reasons and aggregate counts locally, without world, player or chest identifiers in these messages.
+- Released leeches and their offspring eat raw wolf meat. Feeding troughs accept it and serve it through the existing animal-feeding path. Each serving still provides ten minutes of satiation; breeding values are retained.
 
-**P** deposits matching items inside the active building area even while the inventory is closed. Chat, text entry, reading and modal dialogs block the action. **Deposit all / P** still targets matching chests: matching filters first, then chests already containing the item. Bulk deposit does not fill arbitrary empty, unfiltered chests; manual placement remains available.
-
-Area crafting, payments, unspent-ingredient returns, XP, private permissions and transaction leases remain unchanged. Third-party modules and settings are retained. Only Core, its README and version information change in the embedded payload compared with V99.
-
-## Validation scope / Nachweisgrenzen
-
-Native regression checks cover callbacks, shortcut wiring and input gates. No physical P-key press or simultaneous two-client contention is claimed. / Die native Regression prüft Callbacks, Tastenanbindung und Eingabesicherungen. Ein physisch erzeugter P-Tastendruck und gleichzeitige Zwei-Client-Zugriffe werden nicht als nachgewiesen behauptet.
+Third-party modules and settings are retained. Only Core, its README and version information change in the embedded payload compared with V100.
 
 ## Retained changes from 0.18.10 / Übernommen aus 0.18.10
 
@@ -70,7 +66,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.12, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.13, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -104,7 +100,7 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.12, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.13, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
