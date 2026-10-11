@@ -1,10 +1,10 @@
-# Valheim Mastery 0.18.17
+# Valheim Mastery 0.18.18
 
 22 Mastery skills with progression, capes, crafting, runic magic and Beastmaster animals. Supported Valheim versions: see the installed version check; this release is built against Valheim 1.0.17.
 
-Release: 11 October 2026 / 11.10.2026. Installer V105.
+Release: 11 October 2026 / 11.10.2026. Installer V106.
 
-See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.17) for slaughter XP, feeding, cooking timers and save-performance changes. Before upgrading, back up saves and Mastery journals. Older versions cannot read the new Beastmaster journal; downgrade requires a coherent pre-upgrade backup, not only an older DLL.
+See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.18) for Slayer rewards, magic progression, staff visuals, tame loot and shield changes. Before upgrading, back up saves and Mastery journals. Older versions cannot read the new Beastmaster journal; downgrade requires a coherent pre-upgrade backup, not only an older DLL.
 
 Vor dem Update Saves und Mastery-Journale sichern. Ältere Versionen lesen das neue Tiermeister-Journal nicht; ein Downgrade benötigt eine zusammengehörige Sicherung von vor dem Update, nicht nur eine ältere DLL.
 
@@ -19,9 +19,9 @@ Installierte AzuCraftyBoxes und QuickStackPlus übernehmen standardmäßig Resso
 
 ## This update / Dieses Update
 
-Adult tamed slaughter XP, reachable paid trough food including aquatic portions, cooking timers and targeted save/update performance improvements. See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.17) for details and journal rollback requirements.
+Reduced future Slayer kill XP, improved task marks, cheaper early runic magic, clearer progression requirements, redesigned staff models, moderated high-star tame loot and orbiting shields lasting up to two minutes. See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.18) for exact changes and costs.
 
-Schlacht-XP für erwachsene zahme Tiere, erreichbare bezahlte Trogportionen einschließlich Wasserfütterung, Kochtimer und gezielte Speicher-/Updateoptimierungen. Details und Journal-Rückweg: [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.17).
+Weniger künftige Slayer-Kill-XP, mehr Aufgabenmarken, günstigere frühe Runenmagie, klare Fortschrittsvoraussetzungen, neue Stabmodelle, gemäßigte Beute hochstufiger zahmer Tiere und kreisende Schilde mit bis zu zwei Minuten Laufzeit. Konkrete Änderungen und Kosten: [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.18).
 
 ## Retained features from 0.18.7
 
@@ -67,7 +67,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.17, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.18, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -101,7 +101,7 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.17, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.18, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
@@ -120,3 +120,30 @@ Deutsch/englische Anleitungen und Tabellen stehen im Wiki. **Bekannte Einschrän
 Animal Feeding Trough is a separate optional third-party mod. Core support does not install the trough plugin; check the contents of your selected distribution.
 
 Animal Feeding Trough ist eine separate optionale Fremdmod. Die Core-Anbindung installiert die Trogmod nicht; den Umfang der gewählten Distribution prüfen.
+
+
+# Valheim Mastery 0.18.18 / Installer V106
+
+Built against Valheim 1.0.17. This release updates Slayer rewards, the Magic progression path, staff visuals, high-star tame loot and runic shields.
+
+## Changes
+
+- Slayer kill XP awarded after this update is reduced by 30%. Existing XP and recorded kill credits remain unchanged. Task completion still awards 20% of credited kill XP. Harder enemies award more base Slayer marks; task quantity can increase ordinary task marks by up to 50%. Starter and boss mark rewards remain fixed. Shop prices and existing bonus rules are unchanged.
+- All 26 runic spells use a smoother Eitr-cost progression, starting at 3 Eitr. Spell unlock levels remain unchanged. Progression descriptions now list actual spells, staff requirements and boss prerequisites. Native Mistlands, Ashlands and Deep North staves require Magic levels 62, 78 and 96 respectively; existing items are retained.
+- Ten original Mastery staff models and their inventory icons have been redesigned with wooden shafts, bindings and mineral cores. Grip and projectile origin are retained. No extracted game assets are distributed.
+- Ordinary registered material quantities from eligible adult high-star tames use factors 5/6/8 at three/four/five stars instead of 6/8/10. Drop chances, Beastmaster bonuses, slaughter XP and existing animals are unchanged. Trophies, protected drops, wild creatures and unknown materials retain their existing rules.
+- Kieselwacht, Rankenschleier, Basaltwacht and Dämmerschirm now last up to 120 seconds instead of 12, with three orbiting shield visuals and an active status icon showing remaining time. Shield reserves remain 8/15/25/35; depletion ends protection early. Recasting replaces the previous shield. Eitr, rune costs and the shared 20-second cooldown are unchanged.
+- Shield visuals use shared low-detail meshes/materials, visibility gating and a dedicated-server guard; they add no lights, particles or physics objects.
+
+Back up saves and Mastery journals before updating. This release preserves existing progression and settings. The journal compatibility restrictions introduced in 0.18.17 still apply: rollback requires a coherent pre-upgrade backup. Multiplayer peers must use matching Mastery versions.
+
+## Änderungen
+
+- Neue Slayer-Killgutschriften geben 30 % weniger XP. Bestehende XP und gespeicherte Killgutschriften bleiben erhalten. Der Aufgabenabschluss vergütet weiterhin 20 % der verbuchten Kill-XP. Schwierige Gegner geben mehr Basismarken; die Aufgabenmenge erhöht normale Aufgabenmarken um bis zu 50 %. Starter- und Bossmarken bleiben feste Werte. Shoppreise und bestehende Bonusregeln bleiben erhalten.
+- Alle 26 Runenzauber erhalten eine geglättete Eitrkurve ab 3 Eitr. Die Freischaltlevel bleiben erhalten. Fortschrittstexte nennen konkrete Zauber, Stäbe und Bossvoraussetzungen. Native Stäbe aus Nebellanden, Aschenlanden und Tiefem Norden verlangen Magie 62, 78 beziehungsweise 96; vorhandene Gegenstände bleiben erhalten.
+- Zehn eigene Mastery-Stäbe und Inventaricons wurden mit Holzschäften, Bindungen und Mineralkernen neu gestaltet. Griff und Projektilursprung bleiben erhalten. Es werden keine extrahierten Spielassets verteilt.
+- Bekannte reguläre Materialmengen geeigneter erwachsener zahmer Tiere nutzen bei drei/vier/fünf Sternen Faktor 5/6/8 statt 6/8/10. Dropchance, Tiermeisterboni, Schlacht-XP und vorhandene Tiere bleiben erhalten. Trophäen, geschützte Beute, Wildtiere und unbekannte Materialien behalten ihre bisherigen Regeln.
+- Kieselwacht, Rankenschleier, Basaltwacht und Dämmerschirm halten bis zu 120 statt 12 Sekunden. Drei kreisende Schilde und ein aktives Buffsymbol zeigen den Schutz samt Restlaufzeit. Reserven 8/15/25/35, Eitr-/Runenkosten und gemeinsame 20 Sekunden Abklingzeit bleiben erhalten. Verbrauchte Reserve beendet den Schutz früher; erneutes Wirken ersetzt den bisherigen Schild.
+- Die Schilddarstellung verwendet gemeinsame einfache Meshes/Materialien, Sichtbarkeitsgrenzen und eine Dedicated-Server-Sperre ohne zusätzliche Lichter, Partikel oder Physikobjekte.
+
+Vor dem Update Saves und Mastery-Journale sichern. Fortschritt und persönliche Einstellungen bleiben erhalten. Die Journal-Rückwegregeln aus 0.18.17 gelten weiterhin: Ein Rollback benötigt eine zusammengehörige Sicherung von vor dem Update. Multiplayerteilnehmer benötigen übereinstimmende Mastery-Versionen.
