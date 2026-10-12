@@ -1,10 +1,10 @@
-# Valheim Mastery 0.18.19
+# Valheim Mastery 0.18.20
 
 22 Mastery skills with progression, capes, crafting, runic magic and Beastmaster animals. Supported Valheim versions: see the installed version check; this release is built against Valheim 1.0.17.
 
-Release: 12 October 2026 / 12.10.2026. Installer V107.
+Release: 12 October 2026 / 12.10.2026. Installer V108.
 
-See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.19) for weapon quality scaling, affix descriptions and inventory tooltip changes. Before upgrading, back up saves and Mastery journals. Older versions cannot read the new Beastmaster journal; downgrade requires a coherent pre-upgrade backup, not only an older DLL.
+See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.20) for the Construction material-payment fix with AzuCraftyBoxes. Before upgrading, back up saves and Mastery journals. Older versions cannot read the new Beastmaster journal; downgrade requires a coherent pre-upgrade backup, not only an older DLL.
 
 Vor dem Update Saves und Mastery-Journale sichern. Ältere Versionen lesen das neue Tiermeister-Journal nicht; ein Downgrade benötigt eine zusammengehörige Sicherung von vor dem Update, nicht nur eine ältere DLL.
 
@@ -19,9 +19,9 @@ Installierte AzuCraftyBoxes und QuickStackPlus übernehmen standardmäßig Resso
 
 ## This update / Dieses Update
 
-Reduced future Slayer kill XP, improved task marks, cheaper early runic magic, clearer progression requirements, redesigned staff models, moderated high-star tame loot and orbiting shields lasting up to two minutes. See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.19) for exact changes and costs.
+Construction material-saving now applies to the matching placement payment, including AzuCraftyBoxes chest resources. Saved-material markers are committed only when payment is actually skipped. Existing chances, XP and historical pieces are preserved. See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.20) for details.
 
-Weniger künftige Slayer-Kill-XP, mehr Aufgabenmarken, günstigere frühe Runenmagie, klare Fortschrittsvoraussetzungen, neue Stabmodelle, gemäßigte Beute hochstufiger zahmer Tiere und kreisende Schilde mit bis zu zwei Minuten Laufzeit. Konkrete Änderungen und Kosten: [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.19).
+Baukunst-Materialersparnis gilt jetzt auch bei Zutatenentnahme aus AzuCraftyBoxes-Kisten. Neue Bauteile werden erst bei tatsächlich unterdrückter Zahlung als materialgespart markiert. Chancen, XP und vorhandene Bauteile bleiben erhalten. Details stehen in den [Versionshinweisen](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.20).
 
 ## Retained features from 0.18.7
 
@@ -67,7 +67,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.19, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.20, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -101,7 +101,7 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.19, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.20, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
@@ -122,7 +122,7 @@ Animal Feeding Trough is a separate optional third-party mod. Core support does 
 Animal Feeding Trough ist eine separate optionale Fremdmod. Die Core-Anbindung installiert die Trogmod nicht; den Umfang der gewählten Distribution prüfen.
 
 
-# Valheim Mastery 0.18.19 / Installer V107
+# Valheim Mastery 0.18.20 / Installer V108
 
 Built against Valheim 1.0.17. This release updates Slayer rewards, the Magic progression path, staff visuals, high-star tame loot and runic shields.
 
