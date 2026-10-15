@@ -1,10 +1,10 @@
-# Valheim Mastery 0.18.22
+# Valheim Mastery 0.18.23
 
 22 Mastery skills with progression, capes, crafting, runic magic and Beastmaster animals. Supported Valheim versions: see the installed version check; this release is built against Valheim 1.0.17.
 
-Release: 13 October 2026 / 13.10.2026. Installer V110.
+Release: 15 October 2026 / 15.10.2026. Installer V111.
 
-See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.22) for increased finished-rune drops and biome supply packets. Before upgrading, back up saves and Mastery journals. 0.18.20 and earlier cannot read the new hit-XP journal. Downgrade requires a coherent full pre-update backup of characters, worlds and combat journals, not only an older DLL.
+See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.23) for early magic, native interface styling and marked-junk deletion compatibility. Before upgrading, back up saves and Mastery journals. 0.18.20 and earlier cannot read the new hit-XP journal. Downgrade requires a coherent full pre-update backup of characters, worlds and combat journals, not only an older DLL.
 
 Vor dem Update Charaktere, Welten und Mastery-Journale sichern. 0.18.20 und älter lesen das neue Treffer-XP-Journal nicht; ein Downgrade benötigt eine zusammengehörige vollständige Vorupdate-Sicherung, nicht nur eine ältere DLL.
 
@@ -18,6 +18,12 @@ Installierte AzuCraftyBoxes und QuickStackPlus übernehmen standardmäßig Resso
 
 
 ## This update / Dieses Update
+
+Added Pebble Bough at Magic 6 / Crafting 1, a Construction-1 Rune Forge and an in-game early-magic guide using actual recipe data. Grove Spark, Pebble Bough and Thorn Watch use new original models and icons. Mastery windows share native Valheim panels and readable fonts. A targeted fix restores explicit marked-junk deletion for the affected QuickStackPlus 1.1.2 binary. Existing progress and personal settings are retained.
+
+Neu sind Kieselzweig ab Magie 6 / Handwerk 1, die Runenschmiede ab Baukunst 1 und eine Magie-Einstiegsanleitung aus tatsächlichen Rezeptdaten. Hainfunke, Kieselzweig und Dornwacht besitzen neue eigene Modelle und Icons. Masteryfenster verwenden native Holzpanels und passende Schriften. Eine gezielte Korrektur repariert den ausdrücklich ausgelösten Müll-Löschaufruf der betroffenen QuickStackPlus-1.1.2-Datei. Fortschritt und persönliche Einstellungen bleiben erhalten.
+
+## Rune supply retained from 0.18.22 / Runenversorgung aus 0.18.22
 
 Eligible natural enemy deaths give one guaranteed biome packet of 6/9/12 finished runes, plus a 60% chance for a supply packet of 3/6. Each packet adds 3 per star, up to five stars. Earlier reagents remain available later, while advanced types retain biome restrictions. More explicit natural species are supported. Blank-rune chance and per-drop quantities, recipes, spell costs and XP remain unchanged. See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.22) for all eight biome pools.
 
@@ -71,7 +77,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.22, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.23, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -105,7 +111,7 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.22, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.23, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
@@ -125,29 +131,54 @@ Animal Feeding Trough is a separate optional third-party mod. Core support does 
 
 Animal Feeding Trough ist eine separate optionale Fremdmod. Die Core-Anbindung installiert die Trogmod nicht; den Umfang der gewählten Distribution prüfen.
 
+# Valheim Mastery 0.18.23 / Installer V111
 
-# Valheim Mastery 0.18.22 / Installer V110
+Built against Valheim 1.0.17. Early magic progression, native interface styling and a targeted QuickStackPlus compatibility fix.
 
-Built against Valheim 1.0.17. This release updates Slayer rewards, the Magic progression path, staff visuals, high-star tame loot and runic shields.
+## Deutsch
 
-## Changes
+### Magie
 
-- Slayer kill XP awarded after this update is reduced by 30%. Existing XP and recorded kill credits remain unchanged. Task completion still awards 20% of credited kill XP. Harder enemies award more base Slayer marks; task quantity can increase ordinary task marks by up to 50%. Starter and boss mark rewards remain fixed. Shop prices and existing bonus rules are unchanged.
-- All 26 runic spells use a smoother Eitr-cost progression, starting at 3 Eitr. Spell unlock levels remain unchanged. Progression descriptions now list actual spells, staff requirements and boss prerequisites. Native Mistlands, Ashlands and Deep North staves require Magic levels 62, 78 and 96 respectively; existing items are retained.
-- Ten original Mastery staff models and their inventory icons have been redesigned with wooden shafts, bindings and mineral cores. Grip and projectile origin are retained. No extracted game assets are distributed.
-- Ordinary registered material quantities from eligible adult high-star tames use factors 5/6/8 at three/four/five stars instead of 6/8/10. Drop chances, Beastmaster bonuses, slaughter XP and existing animals are unchanged. Trophies, protected drops, wild creatures and unknown materials retain their existing rules.
-- Kieselwacht, Rankenschleier, Basaltwacht and Dämmerschirm now last up to 120 seconds instead of 12, with three orbiting shield visuals and an active status icon showing remaining time. Shield reserves remain 8/15/25/35; depletion ends protection early. Recasting replaces the previous shield. Eitr, rune costs and the shared 20-second cooldown are unchanged.
-- Shield visuals use shared low-detail meshes/materials, visibility gating and a dedicated-server guard; they add no lights, particles or physics objects.
+- Neuer früher Stab **Kieselzweig**: ab Magie 6 und Handwerk 1 an der Werkbank. Rezept: 10 Holz, 6 Stein, 4 Harz und 2 Lederreste. Der Stab beginnt mit Kieselstoß; vorhandene gespeicherte Zauberauswahlen bleiben erhalten.
+- **Dornwacht** benötigt jetzt vier Hirschfelle statt vier Trollhäuten. Magie-, Handwerk- und Bossvoraussetzungen bleiben erhalten.
+- **Runenschmiede** ist als Starterstation bereits mit Baukunst 1 verfügbar. Andere Steinbauten behalten ihre bisherigen Voraussetzungen. Neue Runenschmieden verwenden die vorhandene Starter-Bauvergütung; bereits gespeicherte XP bleiben erhalten.
+- Das Magiebuch enthält eine deutsche und englische Einstiegsanleitung zu Stäben, Runenschmiede, Rohlingen, frühen Runen und Grund-Eitr. Die Angaben stammen aus denselben Rezeptdaten wie die Herstellung.
+- Eigene überarbeitete Modelle und Inventaricons für Hainfunke, Kieselzweig und Dornwacht, mit Holz, Lederbindungen und gefassten Fokussteinen.
+- Runenbeute aus 0.18.22, Eitrvorrat, Regeneration und Endspielwerte bleiben erhalten. Die vorhandenen Leistungsgrenzen einzelner Zauber gelten weiterhin.
 
-Back up saves and Mastery journals before updating. This release preserves existing progression and settings. The journal compatibility restrictions introduced in 0.18.17 still apply: rollback requires a coherent pre-upgrade backup. Multiplayer peers must use matching Mastery versions.
+### Oberfläche
 
-## Änderungen
+- Gemeinsame Valheim-nahe Gestaltung für Masteryfenster, Seitenleisten und Hinweise: Holzpanels, Goldakzente und besser lesbare Schriftfarben.
+- Skilldetails verwenden passende native Fließtext- und Titelschriften. Die fehlerhafte zusätzliche Abdunklung des Holzpanels wurde entfernt.
+- Spezialenergie bleibt unter der Minimap und erhält eine kontrastreiche Textkontur. Hinweise halten Abstand zur geöffneten rechten Seitenleiste; lange Texte und Tooltips werden an den verfügbaren Platz angepasst.
+- Überschriften, Magiebuchkarten und Freischaltungshinweise wurden für deutsche und englische Texte verbessert.
 
-- Neue Slayer-Killgutschriften geben 30 % weniger XP. Bestehende XP und gespeicherte Killgutschriften bleiben erhalten. Der Aufgabenabschluss vergütet weiterhin 20 % der verbuchten Kill-XP. Schwierige Gegner geben mehr Basismarken; die Aufgabenmenge erhöht normale Aufgabenmarken um bis zu 50 %. Starter- und Bossmarken bleiben feste Werte. Shoppreise und bestehende Bonusregeln bleiben erhalten.
-- Alle 26 Runenzauber erhalten eine geglättete Eitrkurve ab 3 Eitr. Die Freischaltlevel bleiben erhalten. Fortschrittstexte nennen konkrete Zauber, Stäbe und Bossvoraussetzungen. Native Stäbe aus Nebellanden, Aschenlanden und Tiefem Norden verlangen Magie 62, 78 beziehungsweise 96; vorhandene Gegenstände bleiben erhalten.
-- Zehn eigene Mastery-Stäbe und Inventaricons wurden mit Holzschäften, Bindungen und Mineralkernen neu gestaltet. Griff und Projektilursprung bleiben erhalten. Es werden keine extrahierten Spielassets verteilt.
-- Bekannte reguläre Materialmengen geeigneter erwachsener zahmer Tiere nutzen bei drei/vier/fünf Sternen Faktor 5/6/8 statt 6/8/10. Dropchance, Tiermeisterboni, Schlacht-XP und vorhandene Tiere bleiben erhalten. Trophäen, geschützte Beute, Wildtiere und unbekannte Materialien behalten ihre bisherigen Regeln.
-- Kieselwacht, Rankenschleier, Basaltwacht und Dämmerschirm halten bis zu 120 statt 12 Sekunden. Drei kreisende Schilde und ein aktives Buffsymbol zeigen den Schutz samt Restlaufzeit. Reserven 8/15/25/35, Eitr-/Runenkosten und gemeinsame 20 Sekunden Abklingzeit bleiben erhalten. Verbrauchte Reserve beendet den Schutz früher; erneutes Wirken ersetzt den bisherigen Schild.
-- Die Schilddarstellung verwendet gemeinsame einfache Meshes/Materialien, Sichtbarkeitsgrenzen und eine Dedicated-Server-Sperre ohne zusätzliche Lichter, Partikel oder Physikobjekte.
+### Kompatibilität
 
-Vor dem Update Saves und Mastery-Journale sichern. Fortschritt und persönliche Einstellungen bleiben erhalten. Die Journal-Rückwegregeln aus 0.18.17 gelten weiterhin: Ein Rollback benötigt eine zusammengehörige Sicherung von vor dem Update. Multiplayerteilnehmer benötigen übereinstimmende Mastery-Versionen.
+- Korrektur der leeren Funktion zum Löschen markierter Gegenstände in der im Windows-Paket verwendeten QuickStackPlus 1.1.2. Die Korrektur greift ausschließlich für die bekannte betroffene Binärdatei.
+- Die bestehende typweite Müllmarkierung bleibt erhalten. Löschen erfolgt nur über die ausdrücklich ausgelöste Aktion im geöffneten Inventar; Schnellleiste, Ausrüstung, Questgegenstände und geschützte Slots bleiben ausgenommen. Keine automatische Entsorgung.
+- Vorhandener Fortschritt, persönliche Konfigurationen und gespeicherte Gegenstände werden beibehalten. Für Mehrspieler müssen Server und Clients denselben Mastery-Stand verwenden.
+
+## English
+
+### Magic
+
+- Added **Pebble Bough**, an early staff available at Magic 6 and Crafting 1 at the workbench. Recipe: 10 Wood, 6 Stone, 4 Resin and 2 Leather Scraps. It starts with Stone Strike; existing saved spell selections remain authoritative.
+- **Thorn Watch** now requires four Deer Hides instead of four Troll Hides. Its skill and boss requirements remain unchanged.
+- The **Rune Forge** is available as a starter station at Construction 1. Other stone structures retain their existing requirements. New Rune Forges use the existing starter construction reward; saved XP is preserved.
+- Added a German and English spellbook guide covering early staves, the Rune Forge, blanks, early runes and base Eitr. The guide uses the same recipe data as crafting.
+- Reworked original models and inventory icons for Grove Spark, Pebble Bough and Thorn Watch, using wood, leather bindings and mounted focus stones.
+- Rune drops introduced in 0.18.22, Eitr capacity, regeneration and endgame values remain unchanged. Existing spell-specific power limits still apply.
+
+### Interface
+
+- Unified Mastery windows, side drawers and notifications around native Valheim styling, with wooden panels, gold accents and clearer text colours.
+- Skill details now use suitable native body and heading fonts. Removed the additional dark tint incorrectly applied to the wooden background.
+- Special energy remains below the minimap and uses a contrasting text outline. Notifications keep clear of the open right drawer; long text and tooltips adapt to the available space.
+- Improved headings, spellbook guide cards and unlock notifications for German and English text.
+
+### Compatibility
+
+- Fixed the empty marked-junk deletion routine in QuickStackPlus 1.1.2 included with the Windows package. The compatibility fix applies only to the known affected binary.
+- Existing item-type junk markings remain unchanged. Deletion requires an explicit action with the inventory open; hotbar, equipped and quest items and protected slots remain excluded. No automatic disposal.
+- Existing progress, personal configuration and saved items are preserved. Multiplayer servers and clients must use the same Mastery version.
