@@ -1,10 +1,10 @@
-# Valheim Mastery 0.18.23
+# Valheim Mastery 0.18.24
 
-22 Mastery skills with progression, capes, crafting, runic magic and Beastmaster animals. Supported Valheim versions: see the installed version check; this release is built against Valheim 1.0.17.
+22 Mastery skills with progression, capes, crafting, runic magic and Beastmaster animals. Supported Valheim versions: see the installed version check; this hotfix adds Valheim 1.0.20 support.
 
-Release: 15 October 2026 / 15.10.2026. Installer V111.
+Release: 15 October 2026 / 15.10.2026. Installer V112.
 
-See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.23) for early magic, native interface styling and marked-junk deletion compatibility. Before upgrading, back up saves and Mastery journals. 0.18.20 and earlier cannot read the new hit-XP journal. Downgrade requires a coherent full pre-update backup of characters, worlds and combat journals, not only an older DLL.
+See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.24) for Valheim 1.0.20 compatibility. Before upgrading, back up saves and Mastery journals. 0.18.20 and earlier cannot read the new hit-XP journal. Downgrade requires a coherent full pre-update backup of characters, worlds and combat journals, not only an older DLL.
 
 Vor dem Update Charaktere, Welten und Mastery-Journale sichern. 0.18.20 und älter lesen das neue Treffer-XP-Journal nicht; ein Downgrade benötigt eine zusammengehörige vollständige Vorupdate-Sicherung, nicht nur eine ältere DLL.
 
@@ -19,9 +19,13 @@ Installierte AzuCraftyBoxes und QuickStackPlus übernehmen standardmäßig Resso
 
 ## This update / Dieses Update
 
-Added Pebble Bough at Magic 6 / Crafting 1, a Construction-1 Rune Forge and an in-game early-magic guide using actual recipe data. Grove Spark, Pebble Bough and Thorn Watch use new original models and icons. Mastery windows share native Valheim panels and readable fonts. A targeted fix restores explicit marked-junk deletion for the affected QuickStackPlus 1.1.2 binary. Existing progress and personal settings are retained.
+Adds Valheim 1.0.20 support, including the Linux server identifier `l-1.0.20`. The explicit version allowlist also retains 1.0.15, 1.0.16 and 1.0.17. **Mastery 0.18.22 and 0.18.23 reject 1.0.20 and apply no patches: update server and clients to 0.18.24.** Existing 0.18.23 features and personal state are retained. No balance, XP, recipe or FPS changes are included.
 
-Neu sind Kieselzweig ab Magie 6 / Handwerk 1, die Runenschmiede ab Baukunst 1 und eine Magie-Einstiegsanleitung aus tatsächlichen Rezeptdaten. Hainfunke, Kieselzweig und Dornwacht besitzen neue eigene Modelle und Icons. Masteryfenster verwenden native Holzpanels und passende Schriften. Eine gezielte Korrektur repariert den ausdrücklich ausgelösten Müll-Löschaufruf der betroffenen QuickStackPlus-1.1.2-Datei. Fortschritt und persönliche Einstellungen bleiben erhalten.
+Ergänzt Valheim 1.0.20 einschließlich der Linux-Serverkennung `l-1.0.20`; 1.0.15, 1.0.16 und 1.0.17 bleiben erlaubt. **Mastery 0.18.22 und 0.18.23 aktivieren auf 1.0.20 keine Patches: Server und Clients auf 0.18.24 aktualisieren.** Funktionen aus 0.18.23 und persönliche Zustände bleiben erhalten; keine Balance-, XP-, Rezept- oder FPS-Änderung.
+
+Vererbte Cheat-Herkunft bei neu ausgewachsenen Pflanzen, Ernte und gezüchteten Tieren wird über die passende 1.0.20-Schnittstelle erhalten. Rechtmäßige Erzeugnisse werden dadurch nicht als gecheatet markiert; Bestand und Journale werden nicht migriert. Inherited cheat provenance for newly grown crops, harvests and bred animals uses the matching 1.0.20 API; legitimate outputs and existing state are not relabelled.
+
+Wiederherstellungs-Checkpoints werden an den nativen 1.0.20-Speicherpfad angepasst; keine Migration bestehender Spielstände oder Journale. Recovery checkpoint capture is adapted to the native 1.0.20 save path without migrating existing saves or journals.
 
 ## Rune supply retained from 0.18.22 / Runenversorgung aus 0.18.22
 
@@ -77,7 +81,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16 and 1.0.17**. The package contains **Core 0.18.23, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16, 1.0.17 and 1.0.20**. The package contains **Core 0.18.24, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -111,7 +115,7 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16 oder 1.0.17**. **Core 0.18.23, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16, 1.0.17 oder 1.0.20**. **Core 0.18.24, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
@@ -131,54 +135,30 @@ Animal Feeding Trough is a separate optional third-party mod. Core support does 
 
 Animal Feeding Trough ist eine separate optionale Fremdmod. Die Core-Anbindung installiert die Trogmod nicht; den Umfang der gewählten Distribution prüfen.
 
-# Valheim Mastery 0.18.23 / Installer V111
-
-Built against Valheim 1.0.17. Early magic progression, native interface styling and a targeted QuickStackPlus compatibility fix.
+# Valheim Mastery 0.18.24 / Installer V112
 
 ## Deutsch
 
-### Magie
-
-- Neuer früher Stab **Kieselzweig**: ab Magie 6 und Handwerk 1 an der Werkbank. Rezept: 10 Holz, 6 Stein, 4 Harz und 2 Lederreste. Der Stab beginnt mit Kieselstoß; vorhandene gespeicherte Zauberauswahlen bleiben erhalten.
-- **Dornwacht** benötigt jetzt vier Hirschfelle statt vier Trollhäuten. Magie-, Handwerk- und Bossvoraussetzungen bleiben erhalten.
-- **Runenschmiede** ist als Starterstation bereits mit Baukunst 1 verfügbar. Andere Steinbauten behalten ihre bisherigen Voraussetzungen. Neue Runenschmieden verwenden die vorhandene Starter-Bauvergütung; bereits gespeicherte XP bleiben erhalten.
-- Das Magiebuch enthält eine deutsche und englische Einstiegsanleitung zu Stäben, Runenschmiede, Rohlingen, frühen Runen und Grund-Eitr. Die Angaben stammen aus denselben Rezeptdaten wie die Herstellung.
-- Eigene überarbeitete Modelle und Inventaricons für Hainfunke, Kieselzweig und Dornwacht, mit Holz, Lederbindungen und gefassten Fokussteinen.
-- Runenbeute aus 0.18.22, Eitrvorrat, Regeneration und Endspielwerte bleiben erhalten. Die vorhandenen Leistungsgrenzen einzelner Zauber gelten weiterhin.
-
-### Oberfläche
-
-- Gemeinsame Valheim-nahe Gestaltung für Masteryfenster, Seitenleisten und Hinweise: Holzpanels, Goldakzente und besser lesbare Schriftfarben.
-- Skilldetails verwenden passende native Fließtext- und Titelschriften. Die fehlerhafte zusätzliche Abdunklung des Holzpanels wurde entfernt.
-- Spezialenergie bleibt unter der Minimap und erhält eine kontrastreiche Textkontur. Hinweise halten Abstand zur geöffneten rechten Seitenleiste; lange Texte und Tooltips werden an den verfügbaren Platz angepasst.
-- Überschriften, Magiebuchkarten und Freischaltungshinweise wurden für deutsche und englische Texte verbessert.
-
 ### Kompatibilität
 
-- Korrektur der leeren Funktion zum Löschen markierter Gegenstände in der im Windows-Paket verwendeten QuickStackPlus 1.1.2. Die Korrektur greift ausschließlich für die bekannte betroffene Binärdatei.
-- Die bestehende typweite Müllmarkierung bleibt erhalten. Löschen erfolgt nur über die ausdrücklich ausgelöste Aktion im geöffneten Inventar; Schnellleiste, Ausrüstung, Questgegenstände und geschützte Slots bleiben ausgenommen. Keine automatische Entsorgung.
-- Vorhandener Fortschritt, persönliche Konfigurationen und gespeicherte Gegenstände werden beibehalten. Für Mehrspieler müssen Server und Clients denselben Mastery-Stand verwenden.
+- Unterstützung für **Valheim 1.0.20**, einschließlich der Linux-Serverkennung `l-1.0.20`, ergänzt. Die vorhandenen Versionen 1.0.15, 1.0.16 und 1.0.17 bleiben in der expliziten Versionsprüfung enthalten.
+- Die Vererbung der Cheat-/Herkunftskennzeichnung bei neu ausgewachsenen Pflanzen, Ernte und gezüchteten Tieren an die native 1.0.20-Schnittstelle angepasst. Rechtmäßig erzeugte Objekte werden dadurch nicht als gecheatet markiert; bestehende Pflanzen, Tiere und Journale werden nicht migriert oder neu markiert.
+- Die Erfassung von Wiederherstellungs-Checkpoints an den nativen Speicherpfad von Valheim 1.0.20 angepasst. Vorhandene Spielstände und Journale werden nicht migriert.
+- **0.18.22 und 0.18.23 aktivieren auf Valheim 1.0.20 keine Mastery-Patches.** Server und Clients auf 0.18.24 aktualisieren; ein erfolgreicher nativer Serverstart allein bestätigt keinen aktiven Mastery-Core.
+- Der Hotfix erhält die Funktionen aus 0.18.23 und ändert keine Balancewerte, XP, Rezepte oder FPS-Regeln. Vorhandene Konfigurationen, Tiere, Gegenstände und Journale bleiben erhalten.
+- Installer V112 verwendet den veröffentlichten V111-Payload als Basis. Loader, Komfortmods und Konfigurationsvorlagen bleiben bytegleich; aktualisiert werden Core, Core-README und Versionsinformation.
+
+Vor dem Austausch Spiel und Server regulär schließen und Charaktere, Welten, persönliche Konfiguration und Mastery-Journale sichern. Für Mehrspieler denselben Mastery-Stand auf Server und Clients verwenden. Ein Rückweg benötigt eine zusammengehörige Sicherung.
 
 ## English
 
-### Magic
-
-- Added **Pebble Bough**, an early staff available at Magic 6 and Crafting 1 at the workbench. Recipe: 10 Wood, 6 Stone, 4 Resin and 2 Leather Scraps. It starts with Stone Strike; existing saved spell selections remain authoritative.
-- **Thorn Watch** now requires four Deer Hides instead of four Troll Hides. Its skill and boss requirements remain unchanged.
-- The **Rune Forge** is available as a starter station at Construction 1. Other stone structures retain their existing requirements. New Rune Forges use the existing starter construction reward; saved XP is preserved.
-- Added a German and English spellbook guide covering early staves, the Rune Forge, blanks, early runes and base Eitr. The guide uses the same recipe data as crafting.
-- Reworked original models and inventory icons for Grove Spark, Pebble Bough and Thorn Watch, using wood, leather bindings and mounted focus stones.
-- Rune drops introduced in 0.18.22, Eitr capacity, regeneration and endgame values remain unchanged. Existing spell-specific power limits still apply.
-
-### Interface
-
-- Unified Mastery windows, side drawers and notifications around native Valheim styling, with wooden panels, gold accents and clearer text colours.
-- Skill details now use suitable native body and heading fonts. Removed the additional dark tint incorrectly applied to the wooden background.
-- Special energy remains below the minimap and uses a contrasting text outline. Notifications keep clear of the open right drawer; long text and tooltips adapt to the available space.
-- Improved headings, spellbook guide cards and unlock notifications for German and English text.
-
 ### Compatibility
 
-- Fixed the empty marked-junk deletion routine in QuickStackPlus 1.1.2 included with the Windows package. The compatibility fix applies only to the known affected binary.
-- Existing item-type junk markings remain unchanged. Deletion requires an explicit action with the inventory open; hotbar, equipped and quest items and protected slots remain excluded. No automatic disposal.
-- Existing progress, personal configuration and saved items are preserved. Multiplayer servers and clients must use the same Mastery version.
+- Added support for **Valheim 1.0.20**, including the Linux server version identifier `l-1.0.20`. Versions 1.0.15, 1.0.16 and 1.0.17 remain in the explicit version allowlist.
+- Adapted inherited cheat provenance for newly grown crops, harvests and bred animals to the native 1.0.20 API. Legitimate outputs are not labelled as cheated; existing plants, animals and journals are not migrated or relabelled.
+- Adapted recovery checkpoint capture to the native Valheim 1.0.20 save path. Existing saves and journals are not migrated.
+- **0.18.22 and 0.18.23 do not activate Mastery patches on Valheim 1.0.20.** Update both server and clients to 0.18.24; a successful native server startup alone does not confirm an active Mastery Core.
+- This hotfix retains the features from 0.18.23 without changing balance values, XP, recipes or FPS rules. Existing configuration, animals, items and journals are preserved.
+- Installer V112 uses the published V111 payload as its baseline. Loader, comfort plugins and configuration presets remain byte-identical; Core, its README and version information are updated.
+
+Close the game and server normally before replacing files. Back up characters, worlds, personal configuration and Mastery journals. Multiplayer clients and servers must use the same Mastery version. Rolling back requires a coherent backup.
