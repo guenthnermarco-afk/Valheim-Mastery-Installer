@@ -1,12 +1,32 @@
-# Valheim Mastery 0.18.24
+# Valheim Mastery 0.18.25
 
-22 Mastery skills with progression, capes, crafting, runic magic and Beastmaster animals. Supported Valheim versions: see the installed version check; this hotfix adds Valheim 1.0.20 support.
+Release: 27 October 2026 / 27.10.2026 · **Installer V113**.
 
-Release: 15 October 2026 / 15.10.2026. Installer V112.
+[Download Windows Installer V113](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/download/v0.18.25/Valheim-Mastery-Installer-0.18.25-V113.zip) · [Release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.25)
 
-See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.24) for Valheim 1.0.20 compatibility. Before upgrading, back up saves and Mastery journals. 0.18.20 and earlier cannot read the new hit-XP journal. Downgrade requires a coherent full pre-update backup of characters, worlds and combat journals, not only an older DLL.
+The offline installer includes Mastery and the established comfort mod set. Der Offline-Installer enthält Mastery und den vorhandenen Komfortmodsatz.
 
-Vor dem Update Charaktere, Welten und Mastery-Journale sichern. 0.18.20 und älter lesen das neue Treffer-XP-Journal nicht; ein Downgrade benötigt eine zusammengehörige vollständige Vorupdate-Sicherung, nicht nur eine ältere DLL.
+22 Mastery skills with progression, capes, crafting, runic magic and Beastmaster animals. Supports Valheim 1.0.20, 1.0.17, 1.0.16 and 1.0.15; the installed mod checks the explicit version allowlist.
+
+## This version / Diese Version
+
+**0.18.25 fixes the optional QuickStackPlus startup failure reported in GitHub issue #7.** Mastery now starts when QuickStackPlus is absent, has not loaded, or does not match the supported bulk-trash adapter. The optional patch is skipped before target registration; the rest of Mastery still initializes. With the exact supported QuickStackPlus build, the existing adapter and all inventory protections remain active.
+
+**0.18.25 behebt den optionalen QuickStackPlus-Startfehler aus GitHub-Issue #7.** Mastery startet jetzt auch, wenn QuickStackPlus fehlt, nicht geladen wurde oder nicht zum unterstützten Sammellösch-Adapter passt. Nur dieser optionale Patch wird vor der Zielregistrierung ausgelassen. Beim exakt unterstützten QuickStackPlus-Build bleiben die vorhandene Anbindung und alle Inventarschutzregeln aktiv.
+
+Valheim **1.0.20**, including `l-1.0.20`, remains supported alongside 1.0.15, 1.0.16 and 1.0.17. Clients and server require **the same Mastery version**. The 0.18.24 native save/provenance compatibility work is retained.
+
+Valheim **1.0.20** einschließlich `l-1.0.20` sowie 1.0.15, 1.0.16 und 1.0.17 bleiben unterstützt. Clients und Server benötigen **denselben Mastery-Stand**. Die native Speicher-/Herkunftskompatibilität aus 0.18.24 bleibt enthalten.
+
+No XP, balance, recipe, loot, animal or FPS changes are included. Existing progress, personal settings and journals are preserved without migration. Keine Änderungen an XP, Balance, Rezepten, Beute, Tieren oder FPS; bestehender Fortschritt, Einstellungen und Journale bleiben ohne Migration erhalten.
+
+See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.25).
+
+## Updating / Aktualisieren
+
+Back up characters, worlds, personal configuration and all Mastery journals before updating. Server and clients require matching Mastery versions and compatible gameplay settings. Existing personal configuration is retained. Rolling back after using new items requires a coherent pre-update backup, not only an older DLL. Versions 0.18.20 and earlier cannot read the hit-XP journal introduced in 0.18.21.
+
+Vor dem Update Charaktere, Welten, persönliche Konfiguration und alle Mastery-Journale sichern. Server und Clients benötigen denselben Mastery-Stand und passende Spieleinstellungen. Ein Rückweg nach Nutzung neuer Gegenstände benötigt eine zusammengehörige Vorupdate-Sicherung statt nur einer alten DLL. 0.18.20 und älter lesen das Treffer-XP-Journal aus 0.18.21 nicht.
 
 ## Storage and crafting / Lager und Herstellung
 
@@ -17,25 +37,11 @@ Installierte AzuCraftyBoxes und QuickStackPlus übernehmen standardmäßig Resso
 `Storage / EnableNativeAreaStorage = false` is the default. Changes require a restart. Without the optional external plugins, native Valheim crafting and storage remain available.
 
 
-## This update / Dieses Update
+## Retained changes from 0.18.18–0.18.24 / Bisherige Änderungen aus 0.18.18–0.18.24
 
-Adds Valheim 1.0.20 support, including the Linux server identifier `l-1.0.20`. The explicit version allowlist also retains 1.0.15, 1.0.16 and 1.0.17. **Mastery 0.18.22 and 0.18.23 reject 1.0.20 and apply no patches: update server and clients to 0.18.24.** Existing 0.18.23 features and personal state are retained. No balance, XP, recipe or FPS changes are included.
+Retained updates from 0.18.18–0.18.24: Valheim 1.0.20 compatibility, early rune magic, larger finished-rune supplies, personal hit XP, once-only weapon quality, Slayer/tame-loot adjustments, Construction payment corrections and the shared interface design. Read [CHANGELOG.md](CHANGELOG.md) and the [current wiki guide](https://thunderstore.io/c/valheim/p/ValheimMastery/Valheim_Mastery/wiki/6211-0182-neuerungen-new-features/) for exact rules and backups. No general base-FPS improvement is claimed.
 
-Ergänzt Valheim 1.0.20 einschließlich der Linux-Serverkennung `l-1.0.20`; 1.0.15, 1.0.16 und 1.0.17 bleiben erlaubt. **Mastery 0.18.22 und 0.18.23 aktivieren auf 1.0.20 keine Patches: Server und Clients auf 0.18.24 aktualisieren.** Funktionen aus 0.18.23 und persönliche Zustände bleiben erhalten; keine Balance-, XP-, Rezept- oder FPS-Änderung.
-
-Vererbte Cheat-Herkunft bei neu ausgewachsenen Pflanzen, Ernte und gezüchteten Tieren wird über die passende 1.0.20-Schnittstelle erhalten. Rechtmäßige Erzeugnisse werden dadurch nicht als gecheatet markiert; Bestand und Journale werden nicht migriert. Inherited cheat provenance for newly grown crops, harvests and bred animals uses the matching 1.0.20 API; legitimate outputs and existing state are not relabelled.
-
-Wiederherstellungs-Checkpoints werden an den nativen 1.0.20-Speicherpfad angepasst; keine Migration bestehender Spielstände oder Journale. Recovery checkpoint capture is adapted to the native 1.0.20 save path without migrating existing saves or journals.
-
-## Rune supply retained from 0.18.22 / Runenversorgung aus 0.18.22
-
-Eligible natural enemy deaths give one guaranteed biome packet of 6/9/12 finished runes, plus a 60% chance for a supply packet of 3/6. Each packet adds 3 per star, up to five stars. Earlier reagents remain available later, while advanced types retain biome restrictions. More explicit natural species are supported. Blank-rune chance and per-drop quantities, recipes, spell costs and XP remain unchanged. See [release notes / Versionshinweise](https://github.com/guenthnermarco-afk/Valheim-Mastery-Installer/releases/tag/v0.18.22) for all eight biome pools.
-
-Geeignete natürliche Gegner geben ein garantiertes Biom-Paket mit 6/9/12 fertigen Runen und mit 60% Chance zusätzlich 3/6 Versorgungsrunen. Je Paket kommen 3 pro Stern hinzu, bis fünf Sterne. Frühe Reagenzien bleiben später verfügbar, fortgeschrittene Arten behalten ihre Biomgrenzen. Zusätzliche natürliche Spezies sind ausdrücklich aufgenommen. Rohlingchance und Mengen je Rohlingdrop, Rezepte, Zauberkosten und XP bleiben erhalten.
-
-**Downgrade:** The hit-XP journal rule introduced in 0.18.21 remains. 0.18.20 and earlier cannot read it; restore a coherent full pre-update backup of characters, worlds and journals rather than mixing journal generations or replacing only the DLL.
-
-**Downgrade:** Die Trefferjournal-Regel aus 0.18.21 gilt weiter. 0.18.20 und älter lesen dieses Journal nicht; vollständige zusammengehörige Vorupdate-Sicherung von Charakteren, Welten und Journalen verwenden, keine gemischten Generationen oder reine DLL-Rücksetzung.
+Weiterhin enthalten sind die Updates 0.18.18–0.18.24: Valheim-1.0.20-Kompatibilität, frühe Runenmagie, mehr fertige Runen, persönliche Treffer-XP, einmalige Waffenqualität, Slayer-/Tierbeuteanpassungen, Bauzahlungskorrekturen und gemeinsame Oberflächengestaltung. Genaue Regeln und Sicherungen stehen im [CHANGELOG.md](CHANGELOG.md) und [aktuellen Wiki](https://thunderstore.io/c/valheim/p/ValheimMastery/Valheim_Mastery/wiki/6211-0182-neuerungen-new-features/). Kein pauschaler Base-FPS-Vorteil wird zugesichert.
 
 ## Retained features from 0.18.7
 
@@ -43,7 +49,7 @@ Geeignete natürliche Gegner geben ein garantiertes Biom-Paket mit 6/9/12 fertig
 - Creature stars use vanilla size and position for wild and tamed animals: native one/two-star objects, matching gold sprites for three/four and pink for five.
 - Eligible wild creatures have at least a 50% upgrade roll after reaching two stars; original entry, distance, fixed-level and boss restrictions remain. This is a conditional roll, not a 50% overall five-star spawn rate. At Beastmaster 100, normal offspring rank bonuses are +2 at 10%, +1 at 30%, otherwise unchanged, capped at four stars with inherited-tier protection. Five-star mutations reach 25% of successful mutations; the overall mutation cap remains 5%. Existing animals are not rerolled.
 - Crafting gains eight optional local filters: All, Weapons, Armour, Tools, Ammo, Food, Potions and Other. Armour includes shields; Other includes materials. The native recipe list, scroll, selection, tooltips, upgrade tab, material payment and XP remain responsible. Native batch crafting and the existing level-75 queue (five jobs, ten with the Crafting Cape) are retained; no second queue or selectable specializations are introduced. Disable with `Interface/CraftingCategories`.
-- Higher-star native loot scales more moderately. For zero through five stars, ordinary quantity factors are 1/2/4/6/8/10, while chance factors stop at 1/2/4/4/4/4. Trophy, quest/unique and unknown non-item quantities also stop at four. Native non-scaling, per-player and boss exceptions remain. Saved carcass loot and existing XP are not recalculated; these factors are not an overall expected-loot guarantee.
+- Higher-star wild native loot scales more moderately. Eligible adult tame material factors at three/four/five stars are 5/6/8; wild factors remain 6/8/10. For zero through five stars, ordinary quantity factors are 1/2/4/6/8/10, while chance factors stop at 1/2/4/4/4/4. Trophy, quest/unique and unknown non-item quantities also stop at four. Native non-scaling, per-player and boss exceptions remain. Saved carcass loot and existing XP are not recalculated; these factors are not an overall expected-loot guarantee.
 - Signs offer Text (no icon) or a centred known item icon. Equipment is excluded from new selections; saved equipment icons and stored text are preserved. Native access/permission checks and Interface/SignItemIcons remain.
 - CSV escaping and row assembly move to the existing bounded background writer. Unity reads, sequence/timestamps and numeric formatting remain on the game thread. Format, order, rotation and counted overflow/error behavior are preserved. No general FPS or maximum-memory improvement is claimed.
 
@@ -81,7 +87,7 @@ Menus and text input take priority. Lox and supported tamed adult animals have F
 
 ## Installation and updates
 
-Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16, 1.0.17 and 1.0.20**. The package contains **Core 0.18.24, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
+Requires **BepInExPack_Valheim 5.4.2350**. Supported Valheim versions: **1.0.15, 1.0.16, 1.0.17 and 1.0.20**. The package contains **Core 0.18.25, WorldFeatures 1.1.0 and HuntingPhysics 1.0.1**; use matching components and gameplay settings on clients and server.
 
 Stop the game and server before replacing files. Back up characters, worlds and the complete Mastery configuration and journals. Install through a compatible mod manager or copy the three supplied plugin components into `BepInEx/plugins`; remove duplicate older copies. Preserve existing configuration rather than replacing it with a new preset.
 
@@ -115,7 +121,7 @@ Weitere Systeme sind Schiffreisen zum eigenen Langschiff oder Drakkar, alle 22 S
 
 Die Community-Rangliste umfasst Tiermeister und alle 22 Skills. Anschauen erfordert keine Teilnahme. Erst eine Anmeldung veröffentlicht deinen gewählten Charakternamen, Kategorie und 22 XP-Werte. Es sind selbst gemeldete Werte; Standard und Test/Multiplikator werden getrennt geführt. Du kannst die Teilnahme beenden und das öffentliche Profil löschen. Den Wiederherstellungs-Zugangscode privat aufbewahren. Ältere Einreichungen mit 21 Skills erhalten einen bereits gespeicherten Tiermeisterwert.
 
-Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16, 1.0.17 oder 1.0.20**. **Core 0.18.24, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
+Benötigt **BepInExPack_Valheim 5.4.2350** und Valheim **1.0.15, 1.0.16, 1.0.17 oder 1.0.20**. **Core 0.18.25, WorldFeatures 1.1.0 und HuntingPhysics 1.0.1** gemeinsam auf Clients und Server installieren. Vor dem Austausch Spiel/Server stoppen und Charaktere, Welten, komplette Mastery-Konfiguration und Journale sichern. Doppelte alte Plugins entfernen; eigene Einstellungen erhalten. Neue Profile starten mit XP ×1.
 
 Apex verlangt alle 22 Skills auf 100; die frühere Berechtigung mit 21 Skills ersetzt Tiermeister nicht. Bestehende zahme Tiere und Fortschritte bleiben erhalten. Alte gemischte Landwirtschafts-XP werden nicht pauschal neu verteilt. Comfort Pack und AzuCraftyBoxes sind optional; Gegenstandsqualität, Ausrüstungsbeute und Waffenspezialangriffe sind in frischen Core-Einstellungen zunächst aus.
 
@@ -127,38 +133,10 @@ Deutsch/englische Anleitungen und Tabellen stehen im Wiki. **Bekannte Einschrän
 - Wilde und zahme Tiere verwenden Vanilla-Größe und -Position: native Ein-/Zwei-Sternobjekte, passende goldene Sprites für drei/vier und pink für fünf.
 - Geeignete wilde Tiere erhalten nach Erreichen von zwei Sternen mindestens 50% pro weiterem Aufstufungswurf. Native Einstiegs-, Distanz-, Feststufen- und Bossregeln gelten weiter. Das bedeutet nicht 50% Fünfsterntiere insgesamt. Bei Tiermeister 100 erhalten normale Nachkommen +2 Rang mit 10%, +1 mit 30%, sonst keinen Bonus; maximal vier Sterne und Schutz der geerbten Stufe bleiben. Bestehende Tiere werden nicht neu ausgewürfelt.
 - Acht lokal abschaltbare Herstellungsfilter: Alle, Waffen, Rüstung, Werkzeuge, Munition, Nahrung, Tränke, Sonstiges. Rüstung enthält Schilde, Sonstiges unter anderem Materialien. Native Rezeptliste, Scrollen, Auswahl, Tooltips, Aufwertungsreiter, Materialzahlung und XP bleiben zuständig. Native Mehrfachherstellung und vorhandene Warteschlange ab Level 75 bleiben erhalten: fünf Aufträge, zehn mit Handwerkscape. Keine zweite Queue und keine wählbaren Spezialisierungen. Schalter: `Interface/CraftingCategories`.
-- Hochsternbeute steigt moderater: Bei null bis fünf Sternen gelten gewöhnliche Mengenfaktoren 1/2/4/6/8/10 und Chancefaktoren 1/2/4/4/4/4. Trophäen, Quest-/Einzelgegenstände und unbekannte Nicht-Item-Drops bleiben auch in der Menge bei maximal Faktor vier. Native Ausnahmen für unskalierte Drops, Spieleranzahl und Bosse bleiben. Gespeicherte Kadaverbeute und vorhandene XP werden nicht neu berechnet; die Faktoren sind keine pauschale Garantie der erwarteten Gesamtbeute.
+- Wilde Hochsternbeute steigt moderater. Reguläre Materialfaktoren geeigneter erwachsener zahmer Tiere sind bei drei/vier/fünf Sternen 5/6/8, wild weiterhin 6/8/10: Bei null bis fünf Sternen gelten gewöhnliche Mengenfaktoren 1/2/4/6/8/10 und Chancefaktoren 1/2/4/4/4/4. Trophäen, Quest-/Einzelgegenstände und unbekannte Nicht-Item-Drops bleiben auch in der Menge bei maximal Faktor vier. Native Ausnahmen für unskalierte Drops, Spieleranzahl und Bosse bleiben. Gespeicherte Kadaverbeute und vorhandene XP werden nicht neu berechnet; die Faktoren sind keine pauschale Garantie der erwarteten Gesamtbeute.
 - Schilder bieten Text (kein Symbol) oder ein mittiges bekanntes Itemicon. Ausrüstung ist aus neuen Auswahlen ausgeschlossen; gespeicherte Ausrüstungsicons und Text bleiben erhalten. Native Rechteprüfungen und Interface/SignItemIcons bleiben.
 - CSV-Escaping und Zusammensetzen der Zeilen laufen im vorhandenen begrenzten Hintergrundschreiber. Unity-Abfragen, Zeitstempel, Reihenfolge und Zahlenformatierung bleiben im Spielthread. Format, Rotation und gezählte Überlast-/Fehlerverluste bleiben erhalten. Kein pauschaler FPS- oder maximaler Speichervorteil wird zugesichert.
 
 Animal Feeding Trough is a separate optional third-party mod. Core support does not install the trough plugin; check the contents of your selected distribution.
 
 Animal Feeding Trough ist eine separate optionale Fremdmod. Die Core-Anbindung installiert die Trogmod nicht; den Umfang der gewählten Distribution prüfen.
-
-# Valheim Mastery 0.18.24 / Installer V112
-
-## Deutsch
-
-### Kompatibilität
-
-- Unterstützung für **Valheim 1.0.20**, einschließlich der Linux-Serverkennung `l-1.0.20`, ergänzt. Die vorhandenen Versionen 1.0.15, 1.0.16 und 1.0.17 bleiben in der expliziten Versionsprüfung enthalten.
-- Die Vererbung der Cheat-/Herkunftskennzeichnung bei neu ausgewachsenen Pflanzen, Ernte und gezüchteten Tieren an die native 1.0.20-Schnittstelle angepasst. Rechtmäßig erzeugte Objekte werden dadurch nicht als gecheatet markiert; bestehende Pflanzen, Tiere und Journale werden nicht migriert oder neu markiert.
-- Die Erfassung von Wiederherstellungs-Checkpoints an den nativen Speicherpfad von Valheim 1.0.20 angepasst. Vorhandene Spielstände und Journale werden nicht migriert.
-- **0.18.22 und 0.18.23 aktivieren auf Valheim 1.0.20 keine Mastery-Patches.** Server und Clients auf 0.18.24 aktualisieren; ein erfolgreicher nativer Serverstart allein bestätigt keinen aktiven Mastery-Core.
-- Der Hotfix erhält die Funktionen aus 0.18.23 und ändert keine Balancewerte, XP, Rezepte oder FPS-Regeln. Vorhandene Konfigurationen, Tiere, Gegenstände und Journale bleiben erhalten.
-- Installer V112 verwendet den veröffentlichten V111-Payload als Basis. Loader, Komfortmods und Konfigurationsvorlagen bleiben bytegleich; aktualisiert werden Core, Core-README und Versionsinformation.
-
-Vor dem Austausch Spiel und Server regulär schließen und Charaktere, Welten, persönliche Konfiguration und Mastery-Journale sichern. Für Mehrspieler denselben Mastery-Stand auf Server und Clients verwenden. Ein Rückweg benötigt eine zusammengehörige Sicherung.
-
-## English
-
-### Compatibility
-
-- Added support for **Valheim 1.0.20**, including the Linux server version identifier `l-1.0.20`. Versions 1.0.15, 1.0.16 and 1.0.17 remain in the explicit version allowlist.
-- Adapted inherited cheat provenance for newly grown crops, harvests and bred animals to the native 1.0.20 API. Legitimate outputs are not labelled as cheated; existing plants, animals and journals are not migrated or relabelled.
-- Adapted recovery checkpoint capture to the native Valheim 1.0.20 save path. Existing saves and journals are not migrated.
-- **0.18.22 and 0.18.23 do not activate Mastery patches on Valheim 1.0.20.** Update both server and clients to 0.18.24; a successful native server startup alone does not confirm an active Mastery Core.
-- This hotfix retains the features from 0.18.23 without changing balance values, XP, recipes or FPS rules. Existing configuration, animals, items and journals are preserved.
-- Installer V112 uses the published V111 payload as its baseline. Loader, comfort plugins and configuration presets remain byte-identical; Core, its README and version information are updated.
-
-Close the game and server normally before replacing files. Back up characters, worlds, personal configuration and Mastery journals. Multiplayer clients and servers must use the same Mastery version. Rolling back requires a coherent backup.
